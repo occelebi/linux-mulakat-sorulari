@@ -132,34 +132,20 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
 * Yeni yapilandirdigin http sunucusu yeniden makina yeniden baslatildiktan sonra calismiyorsa ne yaparsin ?
 * ~/.ssh/authorized_keys dosyasinda ne tur anahtarlar tutulur ve ne icin kullanilir ?
 * Public ssh anahtarimi authorized_keys dosyasina ekledim ama hala sifre girmem gerekiyor, sorun nerde olabilir ?
-* Did you ever create RPM's, DEB's or solaris pkg's?
-* Did you ever create RPM's, DEB's or solaris pkg's?
-* What does ```:(){ :|:& };:``` do on your system?
-* What does ```:(){ :|:& };:``` do on your system?
-* How do you catch a Linux signal on a script?
-* How do you catch a Linux signal on a script?
-* Can you catch a SIGKILL?
-* Can you catch a SIGKILL?
-* What's happening when the Linux kernel is starting the OOM killer and how does it choose which process to kill first?
-* What's happening when the Linux kernel is starting the OOM killer and how does it choose which process to kill first?
-* Describe the linux boot process with as much detail as possible, starting from when the system is powered on and ending when you get a prompt.
-* Describe the linux boot process with as much detail as possible, starting from when the system is powered on and ending when you get a prompt.
-* What's a chroot jail?
-* What's a chroot jail?
-* When trying to umount a directory it says it's busy, how to find out which PID holds the directory?
-* When trying to umount a directory it says it's busy, how to find out which PID holds the directory?
-* What's LD_PRELOAD and when it's used?
-* What's LD_PRELOAD and when it's used?
-* You ran a binary and nothing happened. How would you debug this?
-* You ran a binary and nothing happened. How would you debug this?
-* What are cgroups? Can you specify a scenario where you could use them?
-* What are cgroups? Can you specify a scenario where you could use them?
+* RPM, DEB veya solaris paketi olusturdun mu hic ? 
+* ```:(){ :|:& };:``` komutu ne ise yarar ?
+* Linux sinyalini script araciligiyla nasil yakalarsin ?
+* SIGKILL sinyali yakalanabilir mi ?
+* Linux cekirdigi OOM killer'i baslattiginde ne olur, hangi sureci ilk durduracagini nasil secer ?
+* Linux boot surecini makinaya enerji vermekten promtu alana kadar olabildigince detayli anlatin. 
+* Chroot jail nedir ?
+* umount komutu dizinin mesgul oldugunu soyluyorsa dizini alikoyan surecin PID'sini nasil buluruz ? 
+* LD_PRELOAD nedir, ne zaman kullanilir ?
+* Bir ikili(binary) dosya calistirdin ama hic birsey olmadi, nasil debug edersiniz ?
+* cgroup nedir ? Ne gibi bir durumda kullanilirlar ?
 
 
-
-
-####[[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
-####[[⬆]](#toc) <a name='expert'>Expert Linux Questions:</a>
+####[[⬆]](#toc) <a name='expert'>Uzman Linux Sorulari:</a>
 
 
 * A running process gets ```EAGAIN: Resource temporarily unavailable``` on reading a socket. How can you close this bad socket/file descriptor without killing the process?
