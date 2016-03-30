@@ -109,50 +109,29 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
 * Birkac HTTPS sanal host ayni IP'yi paylasabilir mi ? 
 * Wildcard sertifika nedir ?
 * Hangi Linux dosya tiplerini biliyorsun ?
-* Surec(process) ile thread arasindaki fark nedir ? Fork sistem cagrisindan sonra ebeveyn ve yavru surecler nasil olur ?
-* What is the difference between a process and a thread? And parent and child processes after a fork system call?
-* What is the difference between exec and fork?
-* What is the difference between exec and fork?
-* What is "nohup" used for?
-* What is "nohup" used for?
-* What is the difference between these two commands?
-* What is the difference between these two commands?
- * ```myvar=hello```
+* Surec(process) ile thread arasindaki fark nedir ? Fork sistem cagrisindan sonra ebeveyn ve yavru surecler arasindaki fark nasil olur ?
+* Fork ve exec arasindaki fark nedir ?
+* "nohup" ne icin kullanilir ?
+* Asagidaki iki komutun farki nedir ?
  * ```myvar=hello```
  * ```export myvar=hello```
- * ```export myvar=hello```
-* How many NTP servers would you configure in your local ntp.conf?
-* How many NTP servers would you configure in your local ntp.conf?
-* What does the column 'reach' mean in ```ntpq -p``` output?
-* What does the column 'reach' mean in ```ntpq -p``` output?
-* You need to upgrade kernel at 100-1000 servers, how you would do this?
-* You need to upgrade kernel at 100-1000 servers, how you would do this?
-* How can you get Host, Channel, ID, LUN of SCSI disk?
-* How can you get Host, Channel, ID, LUN of SCSI disk?
-* How can you limit process memory usage?
-* How can you limit process memory usage?
+* Yerel ntp.conf dosyasinda kac tane NTP sunucusu bulundururdun ?
+* ```ntpq -p``` komutunun ciktisinda 'reach' sutunu ne anlama gelir ?
+* 100-1000 sunucunu arasindaki bir sayidaki sunucunun kernel guncellemesini nasil yapardin ?
+* SCSI diskin, Host, Channel, ID, LUN degerlerini nasil gorursun ?
+* Bir surecin bellek kullanimini nasil kisitlarsin ?
 
 
-####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
-####[[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
+####[[⬆]](#toc) <a name='hard'>Zor linux sorulari:</a>
 
-
-* What is a tunnel and how you can bypass a http proxy?
-* What is a tunnel and how you can bypass a http proxy?
-* What is the difference between IDS and IPS?
-* What is the difference between IDS and IPS?
-* What shortcuts do you use on a regular basis?
-* What shortcuts do you use on a regular basis?
-* What is the Linux Standard Base?
-* What is the Linux Standard Base?
-* What is an atomic operation?
-* What is an atomic operation?
-* Your freshly configured http server is not running after a restart, what can you do?
-* Your freshly configured http server is not running after a restart, what can you do?
-* What kind of keys are in ~/.ssh/authorized_keys and what it is this file used for?
-* What kind of keys are in ~/.ssh/authorized_keys and what it is this file used for?
-* I've added my public ssh key into authorized_keys but I'm still getting a password prompt, what can be wrong?
-* I've added my public ssh key into authorized_keys but I'm still getting a password prompt, what can be wrong?
+* Tunel nedir, http proxy'i nasil bypass edersin ?
+* IDS ve IPS arasindaki fark nedir ?
+* Ne tur kisayollari genelde kullanilirsin ?
+* Linux Standard Base nedir ?
+* Atomik operasyon nedir ?
+* Yeni yapilandirdigin http sunucusu yeniden makina yeniden baslatildiktan sonra calismiyorsa ne yaparsin ?
+* ~/.ssh/authorized_keys dosyasinda ne tur anahtarlar tutulur ve ne icin kullanilir ?
+* Public ssh anahtarimi authorized_keys dosyasina ekledim ama hala sifre girmem gerekiyor, sorun nerde olabilir ?
 * Did you ever create RPM's, DEB's or solaris pkg's?
 * Did you ever create RPM's, DEB's or solaris pkg's?
 * What does ```:(){ :|:& };:``` do on your system?
