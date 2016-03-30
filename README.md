@@ -3,7 +3,7 @@ Linux Sistem Yoneticisi/DevOps Mulakat Sorulari
 
 https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce cevirisidir.
 
-## <a name='toc'>Table of Contents</a>
+## <a name='toc'>Icerik</a>
 
   1. [General Questions](#general)
   1. [Simple Linux Questions](#simple)
@@ -18,7 +18,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
   1. [Other Great References](#references)
 
 
-####[[⬆]](#toc) <a name='general'>General Questions:</a>
+####[[⬆]](#toc) <a name='general'>Genel Sorular:</a>
 
 * Dun/gecen hafta ne ogrendin ?
 * Tercih ettigin gelistirme/yonetim ortamindan bahset.(OS, Editor, Browsers, Tools etc.)
@@ -35,7 +35,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
 * Linux sisteminin genel dosya sistemi hiyerarsisini acikla.
 
 
-####[[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
+####[[⬆]](#toc) <a name='simple'>Basit Linux Sorulari:</a>
 
 * Admin kullanicisinin adi ve UID'si nedir ?
 * Bir dizin icindeki sakli dosyalar dahil butun dosyalari nasil listelersin ?
@@ -64,7 +64,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
 * Uc yuk ortamasini(three load averages) acikla, neyi gosterirler ?
 
 
-####[[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
+####[[⬆]](#toc) <a name='medium'>Orta seviye Linux Sorulari:</a>
 
 * Asagidaki komutlar ne ise yarar, nasil kullanilir ?
  * ```tee```
