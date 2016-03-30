@@ -1,4 +1,4 @@
-Linux Sistem Yoneticisi/DevOps Mulakat Sorulari
+Linux Sistem Yoneticisi/DevOps Mülakat Sorulari
 ====================================================
 
 https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce cevirisidir.
