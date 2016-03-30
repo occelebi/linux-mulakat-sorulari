@@ -92,42 +92,24 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
 * Dosya sistemi kontrolu siradaki yeniden baslatma surecinde nasil zorlanir ?
 * SNMP nedir ne icin kullanilir ?
 * runlevel nedir nasil gorulur ?
-* What is a runlevel and how to get the current runlevel?
-* What is SSH port forwarding?
-* What is SSH port forwarding?
-* What is the difference between local and remote port forwarding?
-* What is the difference between local and remote port forwarding?
-* What are the steps to add a user to a system without using useradd/adduser?
-* What are the steps to add a user to a system without using useradd/adduser?
-* What is MAJOR and MINOR numbers of special files?
-* What is MAJOR and MINOR numbers of special files?
-* Describe a scenario when you get a "filesystem is full" error, but 'df' shows there is free space.
-* Describe a scenario when you get a "filesystem is full" error, but 'df' shows there is free space.
-* Describe a scenario when deleting a file, but 'df' not showing the space being freed.
-* Describe a scenario when deleting a file, but 'df' not showing the space being freed.
-* Describe how 'ps' works.
-* Describe how 'ps' works.
-* What happens to a child process that dies and has no parent process to wait for it and what’s bad about this?
-* What happens to a child process that dies and has no parent process to wait for it and what’s bad about this?
-* Explain briefly each one of the process states.
-* Explain briefly each one of the process states.
-* How to know which process listens on a specific port?
-* How to know which process listens on a specific port?
-* What is a zombie process and what could be the cause of it?
-* What is a zombie process and what could be the cause of it?
-* You run a bash script and you want to see its output on your terminal and save it to a file at the same time. How could you do it?
-* You run a bash script and you want to see its output on your terminal and save it to a file at the same time. How could you do it?
-* Explain what echo "1" > /proc/sys/net/ipv4/ip_forward does.
-* Explain what echo "1" > /proc/sys/net/ipv4/ip_forward does.
-* Describe briefly the steps you need to take in order to create and install a valid certificate for the site https://foo.example.com.
-* Describe briefly the steps you need to take in order to create and install a valid certificate for the site https://foo.example.com.
-* Can you have several HTTPS virtual hosts sharing the same IP?
-* Can you have several HTTPS virtual hosts sharing the same IP?
-* What is a wildcard certificate?
-* What is a wildcard certificate?
-* Which Linux file types do you know?
-* Which Linux file types do you know?
-* What is the difference between a process and a thread? And parent and child processes after a fork system call?
+* SSH port yonlendirme(forwarding) nedir ?
+* Yerel ve uzaktaki port yonlendirme arasindaki fark nedir ?
+* useradd/adduser komutlarini kullanmadan sistemi kullanici eklemenin adimlari nelerdir ?
+* Ozel dosyalardaki MAJOR ve MINOR numaralari ne anlama gelir ?
+* "filesystem is full" hatasi alindiginda 'df' komutu kullanabilir alan gosteriyorsa sebebi ne olabilir ?
+* Dosya silindikten sonra df komutunun bosalan alani gostermemesinin sebebi ne olabilir ?
+* 'ps' komutu nasil calisir ?
+* Olen yavru surecin onu bekleyen ebeveyn sureci yoksa ne olur ? Bu neden kotudur ?
+* Bir surecin tum sureclerini kisaca acikla.
+* Hangi surecin hangi portu dinledigi nasil ogrenilir ?
+* Zombie surec nedir ve ne sebep olur ?
+* Bir bash scripti calisirken ayni anda hem terminale cikti versin hem de dosyaya yazilsin istiyorsan ne yapmaliyiz ?
+* echo "1" > /proc/sys/net/ipv4/ip_forward komutu ne yapar ?
+* https://foo.example.com sitesi icin gecerli sertifika olusturup yuklemenin adimlarini kisaca acikla.
+* Birkac HTTPS sanal host ayni IP'yi paylasabilir mi ? 
+* Wildcard sertifika nedir ?
+* Hangi Linux dosya tiplerini biliyorsun ?
+* Surec(process) ile thread arasindaki fark nedir ? Fork sistem cagrisindan sonra ebeveyn ve yavru surecler nasil olur ?
 * What is the difference between a process and a thread? And parent and child processes after a fork system call?
 * What is the difference between exec and fork?
 * What is the difference between exec and fork?
