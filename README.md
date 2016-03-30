@@ -28,86 +28,44 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
 * Agda DNS'in ne gibi bir rolu var ?
 * HTTP nedir ?
 * HTTP proxy nedir, nasil calisir ?
-* What is an HTTP proxy and how does it work?
-* Describe briefly how HTTPS works.
-* Describe briefly how HTTPS works.
-* What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.
-* What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.
-* What is RAID? What is RAID0, RAID1, RAID5, RAID10?
-* What is RAID? What is RAID0, RAID1, RAID5, RAID10?
-* What is a level 0 backup? What is an incremental backup?
-* What is a level 0 backup? What is an incremental backup?
-* Describe the general file system hierarchy of a Linux system.
-* Describe the general file system hierarchy of a Linux system.
-
-
+* Kisaca HTTPS'in nasil caligtigini acikla.
+* SMTP nedir ? Mail nasil SMTP araciligiyla ulastirilir ?
+* RAID nedir ? RAID0, RAID1, RAID5, RAID10 nedir ?
+* level 0 backup nedir ? Incremental(artan) backup nedir ?
+* Linux sisteminin genel dosya sistemi hiyerarsisini acikla.
 
 
 ####[[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
-####[[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
 
-
-* What is the name and the UID of the administrator user?
-* What is the name and the UID of the administrator user?
-* How to list all files, including hidden one, in a directory?
-* How to list all files, including hidden one, in a directory?
-* What is the Unix/Linux command to remove a directory and its contents?
-* What is the Unix/Linux command to remove a directory and its contents?
-* Which command will show you free/used memory? Does free memory exist on Linux?
-* Which command will show you free/used memory? Does free memory exist on Linux?
-* How to search for the string "my konfi is the best" in files of a directory recursively?
-* How to search for the string "my konfi is the best" in files of a directory recursively?
-* How to connect to a remote server or what is SSH?
-* How to connect to a remote server or what is SSH?
-* How to get all environment variables and how can you use them?
-* How to get all environment variables and how can you use them?
-* I get "command not found" when I run ```ifconfig -a```. What can be wrong?
-* I get "command not found" when I run ```ifconfig -a```. What can be wrong?
-* What happens if I type TAB-TAB?
-* What happens if I type TAB-TAB?
-* What command will show the available disk space on the Unix/Linux system?
-* What command will show the available disk space on the Unix/Linux system?
-* What commands do you know that can be used to check DNS records?
-* What commands do you know that can be used to check DNS records?
-* What Unix/Linux commands will alter a files ownership, files permissions?
-* What Unix/Linux commands will alter a files ownership, files permissions?
-* What does ```chmod +x FILENAME```do?
-* What does ```chmod +x FILENAME```do?
-* What does the permission 0750 on a file mean?
-* What does the permission 0750 on a file mean?
-* What does the permission 0750 on a directory mean?
-* What does the permission 0750 on a directory mean?
-* How to add a new system user without login permissions?
-* How to add a new system user without login permissions?
-* How to add/remove a group from a user?
-* How to add/remove a group from a user?
-* What is a bash alias?
-* What is a bash alias?
-* How do you set the mail address of the root/a user?
-* How do you set the mail address of the root/a user?
-* What does CTRL-c do?
-* What does CTRL-c do?
-* What is in /etc/services?
-* What is in /etc/services?
-* How to redirect STDOUT and STDERR in bash? (> /dev/null 2>&1)
-* How to redirect STDOUT and STDERR in bash? (> /dev/null 2>&1)
-* What is the difference between UNIX and Linux.
-* What is the difference between UNIX and Linux.
-* What is the difference between Telnet and SSH?
-* What is the difference between Telnet and SSH?
-* Explain the three load averages and what do they indicate.
-* Explain the three load averages and what do they indicate.
-
-
-
-
+* Admin kullanicisinin adi ve UID'si nedir ?
+* Bir dizin icindeki sakli dosyalar dahil butun dosyalari nasil listelersin ?
+* Bir dizini ve icindekileri silen Linux komutu nedir ?
+* Kullanilabilir/kullanilmis bellegi nasil goruruz ? Kullanilmamis bellek Linux'te mevcut mudur ?
+* "my konfi is the best" cumlesini dizindeki dosyalarda ve altindaki dizinlerde nasil arariz ?
+* Uzaktaki makinaya nasil baglaniriz veya SSH nedir ?
+* Butun ortam degiskenleri nasil goruruz ve nasil kullaniriz ?
+* ```ifconfig -a``` komutunu calistirdigimda "command not found" hatasi aliyorsam problem ne olabilir ?
+* Iki kez TAB tusuna basarsam ne olur ?
+* Linux sistemlerde kullanabilir disk alanini gosteren komut nedir ?
+* DNS kayitlarini kontrol etmek icin hangi komutlar kullanilir ?
+* Hangi Linux komutlari dosyanin aidiyetini ve izinleri degistirir ?
+* ```chmod +x FILENAME``` komutu ne yapar ?
+* 0750 izninin dosya uzerinde etkisi nedir ?
+* 0750 izninin dizin uzerinde etkisi nedir ?
+* Erisim(login) izni vermeden nasil kullanici olusturulur ?
+* Bir kullaniciya nasil grup nasil eklenir, silinir ?
+* Bash alias ne demektir ?
+* Root veya bir kullanicinin mail adresini nasil ayarlarsin ?
+* CTRL-c ne yapar ?
+* /etc/services dosyanin icinde ne saklanir ?
+* Standart cikis ve hatayi bash dilinde nasil yeniden yonlendirirsin ? (> /dev/null 2>&1)
+* UNIX ile Linux arasindaki fark nedir ?
+* Telnet ve SSH arasindaki fark nedir ?
+* Uc yuk ortamasini(three load averages) acikla, neyi gosterirler ?
 
 
 ####[[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
-####[[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
 
-
-* What do the following commands do and how would you use them?
 * What do the following commands do and how would you use them?
  * ```tee```
  * ```tee```
