@@ -66,56 +66,32 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
 
 ####[[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
 
-* What do the following commands do and how would you use them?
- * ```tee```
+* Asagidaki komutlar ne ise yarar, nasil kullanilir ?
  * ```tee```
  * ```awk```
- * ```awk```
- * ```tr```
  * ```tr```
  * ```cut```
- * ```cut```
- * ```tac```
  * ```tac```
  * ```curl```
- * ```curl```
- * ```wget```
  * ```wget```
  * ```watch```
- * ```watch```
- * ```head```
  * ```head```
  * ```tail```
- * ```tail```
-* What does a ```&``` after a command do?
-* What does a ```&``` after a command do?
-* What does ```& disown``` after a command do?
-* What does ```& disown``` after a command do?
-* What is a packet filter and how does it work?
-* What is a packet filter and how does it work?
-* What is Virtual Memory?
-* What is Virtual Memory?
-* What is swap and what is it used for?
-* What is swap and what is it used for?
-* What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
-* What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
-* Are there any other RRs and what are they used for?
-* Are there any other RRs and what are they used for?
-* What is a Split-Horizon DNS?
-* What is a Split-Horizon DNS?
-* What is the sticky bit?
-* What is the sticky bit?
-* What does the immutable bit to a file?
-* What does the immutable bit to a file?
-* What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink?
-* What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink?
-* What is an inode and what fields are stored in an inode?
-* What is an inode and what fields are stored in an inode?
-* Howto force/trigger a file system check on next reboot?
-* Howto force/trigger a file system check on next reboot?
-* What is SNMP and what is it used for?
-* What is SNMP and what is it used for?
-* What is a runlevel and how to get the current runlevel?
+* ```&``` karakteri komuttan sonra gelirse nasil etki gosterir ?
+* ```& disown``` karakteri komuttan sonra gelirse ne etki gosterir ?
+* Paket filtreleme nedir, nasil kullanilir ?
+* Sanal bellek(virtual memory) nedir ?
+* Swap nedir, ne icin kullanilir ?
+* A, NS, PTR, CNAME, MX kayitlari ne anlama gelir ?
+* Bilinen baska RR(resource record) var mi, nasil kullanilirlar ?
+* Split-Horizon DNS nedir ?
+* Sticky bit nedir ? 
+* immutable bitin dosya uzerindeki etkisi nedir ? 
+* Hardlink ve sembolik linkin arasindaki fark nedir ? Bunlarin kaynagini silinirse her iki durum icinde ne olur ?
+* Inode nedir ve ne tur bilgiler tutar ?
+* Dosya sistemi kontrolu siradaki yeniden baslatma surecinde nasil zorlanir ?
+* SNMP nedir ne icin kullanilir ?
+* runlevel nedir nasil gorulur ?
 * What is a runlevel and how to get the current runlevel?
 * What is SSH port forwarding?
 * What is SSH port forwarding?
