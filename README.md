@@ -148,32 +148,19 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
 ####[[⬆]](#toc) <a name='expert'>Uzman Linux Sorulari:</a>
 
 
-* A running process gets ```EAGAIN: Resource temporarily unavailable``` on reading a socket. How can you close this bad socket/file descriptor without killing the process?
-* A running process gets ```EAGAIN: Resource temporarily unavailable``` on reading a socket. How can you close this bad socket/file descriptor without killing the process?
+* Calisan bir surec soketi okurken ```EAGAIN: Resource temporarily unavailable``` hatasi aliyor. Sureci durdurmadan soket veya dosya descriptoru nasil kapatirsin ?
 
 
+####[[⬆]](#toc) <a name='network'>Ag Sorulari:</a>
 
-
-####[[⬆]](#toc) <a name='network'>Networking Questions:</a>
-####[[⬆]](#toc) <a name='network'>Networking Questions:</a>
-
-
-* What is localhost and why would ```ping localhost``` fail?
-* What is localhost and why would ```ping localhost``` fail?
-* What is the similarity between "ping" & "traceroute" ? How is traceroute able to find the hops.
-* What is the similarity between "ping" & "traceroute" ? How is traceroute able to find the hops.
-* What is the command used to show all open ports and/or socket connections on a machine?
-* What is the command used to show all open ports and/or socket connections on a machine?
-* Is 300.168.0.123 a valid IPv4 address?
-* Is 300.168.0.123 a valid IPv4 address?
-* Which IP ranges/subnets are "private" or "non-routable" (RFC 1918)?
-* Which IP ranges/subnets are "private" or "non-routable" (RFC 1918)?
-* What is a VLAN?
-* What is a VLAN?
-* What is ARP and what is it used for?
-* What is ARP and what is it used for?
-* What is the difference between TCP and UDP?
-* What is the difference between TCP and UDP?
+* localhost nedir ? Neden ```ping localhost``` komutu hata verir ?
+* "ping" & "traceroute" komutu arasinda benzerlik nedir ? traceroute hoplari nasil bulur ?
+* Butun port ve soket baglantilarini gosteren komut nedir ?
+* 300.168.0.123 gecerli bir IPv4 adresi midir ?
+* Hangi IP araliklari/altaglari "private" veya "non-routable" (RFC 1918) kategorisine girer ?
+* VLAN nedir ?
+* ARP nedir ve ne icin kullanilir ?
+* TCP ve UDP arasindaki fark nedir ?
 * What is the purpose of a default gateway?
 * What is the purpose of a default gateway?
 * What is command used to show the routing table on a Linux box?
