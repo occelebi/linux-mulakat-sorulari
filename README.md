@@ -161,16 +161,11 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
 * VLAN nedir ?
 * ARP nedir ve ne icin kullanilir ?
 * TCP ve UDP arasindaki fark nedir ?
-* What is the purpose of a default gateway?
-* What is the purpose of a default gateway?
-* What is command used to show the routing table on a Linux box?
-* What is command used to show the routing table on a Linux box?
-* A TCP connection on a network can be uniquely defined by 4 things. What are those things?
-* A TCP connection on a network can be uniquely defined by 4 things. What are those things?
-* When a client running a web browser connects to a web server, what is the source port and what is the destination port of the connection?
-* When a client running a web browser connects to a web server, what is the source port and what is the destination port of the connection?
-* How do you add an IPv6 address to a specific interface?
-* How do you add an IPv6 address to a specific interface?
+* Varsayilan gateway ne icin kullanilir ?
+* Yonlendirme tablosunu gosteren komut nedir ?
+* Bir TCP baglantisi agda 4 farkli essiz sey ile tanimlanir. Bunlar nedir ?
+* Istemci web tarayicisi ile web sunucusuna baglandiginda baglantinin kaynak ve hedef portu ne olur ?
+* Ozel bir arayuze IPv6 adres nasil eklenir ?
 * You have added an IPv4 and IPv6 address to interface eth0. A ping to the v4 address is working but a ping to the v6 address gives yout the response ```sendmsg: operation not permitted```. What could be wrong?
 * You have added an IPv4 and IPv6 address to interface eth0. A ping to the v4 address is working but a ping to the v6 address gives yout the response ```sendmsg: operation not permitted```. What could be wrong?
 * What is SNAT and when should be used?
