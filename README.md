@@ -203,30 +203,18 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
 * Sistemin devamlı integrasyon(continous integration) ve devamlı canlıya alma(continous deployment) süreçlerinde önemli noktalar nelerdir ?
 
 
-####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
-####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
+####[[⬆]](#toc) <a name='fun'>Eğlenceli Sorular:</a>
+
+* Dikkatsiz bir sistem yöneticisi şu komutu çalıştırdıysa: ```chmod 444 /bin/chmod ``` - nasıl düzeltirdin ?
+* root şifresini kaybettin, bu durumda ne yapılabilir ?
+* Uzaktaki bir sunucuyu yeniden başlattım ama 10 dakika geçmesine rağmen hala ssh ile sisteme bağlanılmıyorsa problem ne olabilir ?
+* Issız bir adaya düşsen yanına alacağın 5 linux komutu nedir ?
+* Rastgele bir makinaya denk geldin, ilk olarak çalıştıracağın komut ne olurdu ?
+* SSH protokolünü farklı şekilde kullandın mı hiç ? 
+* Çalışan bir script yanlışlıkla sildin, nasıl geri getirirsin ?
 
 
-* A careless sysadmin executes the following command: ```chmod 444 /bin/chmod ``` - what do you do to fix this?
-* A careless sysadmin executes the following command: ```chmod 444 /bin/chmod ``` - what do you do to fix this?
-* I've lost my root password, what can I do?
-* I've lost my root password, what can I do?
-* I've rebooted a remote server but after 10 minutes I'm still not able to ssh into it, what can be wrong?
-* I've rebooted a remote server but after 10 minutes I'm still not able to ssh into it, what can be wrong?
-* If you were stuck on a desert island with only 5 command-line utilities, which would you choose?
-* If you were stuck on a desert island with only 5 command-line utilities, which would you choose?
-* You come across a random computer and it appears to be a command console for the universe. What is the first thing you type?
-* You come across a random computer and it appears to be a command console for the universe. What is the first thing you type?
-* Tell me about a creative way that you've used SSH?
-* Tell me about a creative way that you've used SSH?
-* You have deleted by error a running script, what could you do to restore it?
-* You have deleted by error a running script, what could you do to restore it?
-
-
-
-
-####[[⬆]](#toc) <a name='demo'>Demo Time:</a>
-####[[⬆]](#toc) <a name='demo'>Demo Time:</a>
+####[[⬆]](#toc) <a name='demo'>Demo Zamanı:</a>
 
 
 * Unpack test.tar.gz without man pages or google.
