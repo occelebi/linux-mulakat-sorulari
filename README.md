@@ -216,25 +216,15 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
 
 ####[[⬆]](#toc) <a name='demo'>Demo Zamanı:</a>
 
-
-* Unpack test.tar.gz without man pages or google.
-* Unpack test.tar.gz without man pages or google.
-* Remove all "*.pyc" files from testdir recursively?
-* Remove all "*.pyc" files from testdir recursively?
-* Search for "my konfu is the best" in all *.py files.
-* Search for "my konfu is the best" in all *.py files.
-* Replace the occurrence of "my konfu is the best" with "I'm a linux jedi master" in all *.txt files.
-* Replace the occurrence of "my konfu is the best" with "I'm a linux jedi master" in all *.txt files.
-* Test if port 443 on a machine with IP address X.X.X.X is reachable.
-* Test if port 443 on a machine with IP address X.X.X.X is reachable.
-* Get http://myinternal.webserver.local/test.html via telnet.
-* Get http://myinternal.webserver.local/test.html via telnet.
-* How to send an email without a mail client, just on the command line?
-* How to send an email without a mail client, just on the command line?
-* Write a ```get_prim``` method in python/perl/bash/pseudo.
-* Write a ```get_prim``` method in python/perl/bash/pseudo.
-* Find all files which have been accessed within the last 30 days.
-* Find all files which have been accessed within the last 30 days.
+* test.tar.gz dosyasını man sayfalarına ya da google'a bakmadan nasıl açarsın ?
+* testdir dizininden bütün "*.pyc" dosyalarını nasıl silinir ?
+* "my konfu is the best" içeriği bütün *.py dosyalarında nasıl aranır ?
+* Bütün *.txt dosyalarındaki her "my konfu is the best" metinini "I'm a linux jedi master" ile değiştir.
+* IP adresi X.X.X.X olan makinanın 443 portunun erişilir olduğu nasıl kontrol edilir ?
+* Telnet ile http://myinternal.webserver.local/test.html sayfasını nasıl indirilir ? 
+* Bir mail istemci olmadan komut satırı ile bir mail nasıl yollanılır ?
+* python/perl/bash/pseudo dillerinde ```get_prim``` methodu nasıl yazılır ?
+* Son 30 gün içerisinde erişilmiş bütün dosyalar nasıl bulunur ?
 * Explain the following command ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log```
 * Explain the following command ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log```
 * Write a script to list all the differences between two directories.
