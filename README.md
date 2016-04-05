@@ -5,15 +5,15 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
 
 ## <a name='toc'>Icerik</a>
 
-  1. [General Questions](#general)
-  1. [Simple Linux Questions](#simple)
-  1. [Medium Linux Questions](#medium)
-  1. [Hard Linux Questions](#hard)
-  1. [Expert Linux Questions](#expert)
-  1. [Networking Questions](#network)
-  1. [MySQL Questions](#mysql)
-  1. [DevOps Questions](#devop)
-  1. [Fun Questions](#fun)
+  1. [Genel Sorular](#general)
+  1. [Basit Linux Soruları](#simple)
+  1. [Orta Seviye Linux Soruları](#medium)
+  1. [Zor Linux Soruları](#hard)
+  1. [Uzman Linux Soruları](#expert)
+  1. [Networking Soruları](#network)
+  1. [MySQL Soruları](#mysql)
+  1. [DevOps Soruları](#devop)
+  1. [Eglenceli Sorular](#fun)
   1. [Demo Time](#demo)
   1. [Other Great References](#references)
 
@@ -166,76 +166,41 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
 * Bir TCP baglantisi agda 4 farkli essiz sey ile tanimlanir. Bunlar nedir ?
 * Istemci web tarayicisi ile web sunucusuna baglandiginda baglantinin kaynak ve hedef portu ne olur ?
 * Ozel bir arayuze IPv6 adres nasil eklenir ?
-* You have added an IPv4 and IPv6 address to interface eth0. A ping to the v4 address is working but a ping to the v6 address gives yout the response ```sendmsg: operation not permitted```. What could be wrong?
-* You have added an IPv4 and IPv6 address to interface eth0. A ping to the v4 address is working but a ping to the v6 address gives yout the response ```sendmsg: operation not permitted```. What could be wrong?
-* What is SNAT and when should be used?
-* What is SNAT and when should be used?
-* Explain how could you ssh login into a Linux system that DROPs all new incomming packets using a SSH tunnel.
-* Explain how could you ssh login into a Linux system that DROPs all new incomming packets using a SSH tunnel.
-* How do you stop a DDoS?
-* How do you stop a DDoS?
-* How can you see content of ip packet?
-* How can you see content of ip packet?
+* eth0 arayüzüne IPv4 ve IPv6 adresine ekledikten sonra v4 adresine gönderilen ping çalışıyor fakat v6 adresine gönderilen pingin sonucu ```sendmsg: operation not permitted``` hatası alınıyorsa problem ne olabilir ?
+* SNAT nedir ne için kullanılır ? 
+* SSH tünelinden gelen bütün bağlantı paketlerini DROP eden bir linux sistemine ssh ile nasıl bağlanırsınız ? 
+* DDoS'u durdurmak için en yaparsın ?
+* IP paketinin içerini nasıl görürsün ?
 
 
+####[[⬆]](#toc) <a name='mysql'>MySQL Soruları:</a>
+
+* Kullanıcı nasıl oluşturulur ?
+* Kullanıcıya nasıl yetki verilir ?
+* "left" ve "right" join arasındaki fark nedir ?
+* InnoDB ve MyISAM arasındaki farkı kısaca açıklar mısın ?.
+* Basit bir master/slave cluster kurmak için hangi adımlar gereklidir ?
+* MySQL'i kurduktan sonra neden "mysql_secure_installation" çalıstırılmalıdır ? 
+* Hangi işlerin çalıştığını nasıl görülür ?
 
 
-####[[⬆]](#toc) <a name='mysql'>MySQL questions:</a>
-####[[⬆]](#toc) <a name='mysql'>MySQL questions:</a>
+####[[⬆]](#toc) <a name='devop'>DevOps Soruları:</a>
 
-
-* How do you create a user?
-* How do you create a user?
-* How do you provide privileges to a user?
-* How do you provide privileges to a user?
-* What is the difference between a "left" and a "right" join?
-* What is the difference between a "left" and a "right" join?
-* Explain briefly the differences between InnoDB and MyISAM.
-* Explain briefly the differences between InnoDB and MyISAM.
-* Describe briefly the steps you need to follow in order to create a simple master/slave cluster.
-* Describe briefly the steps you need to follow in order to create a simple master/slave cluster.
-* Why should you run "mysql_secure_installation" after installing MySQL?
-* Why should you run "mysql_secure_installation" after installing MySQL?
-* How do you check which jobs are running?
-* How do you check which jobs are running?
-
-
-
-
-####[[⬆]](#toc) <a name='devop'>DevOps Questions:</a>
-####[[⬆]](#toc) <a name='devop'>DevOps Questions:</a>
-
-
-* Can you describe your workflow when you create a script?
-* Can you describe your workflow when you create a script?
-* What is GIT?
-* What is GIT?
-* What is a dynamically/statically linked file?
-* What is a dynamically/statically linked file?
-* What does "configure && make && make install" do?
-* What does "configure && make && make install" do?
-* What is puppet/chef/ansible used for?
-* What is puppet/chef/ansible used for?
-* How do you create a new postgres user?
-* How do you create a new postgres user?
+* Bir script oluştururkenki çalışma akışını(workflow) açıklar mısın ?
+* GIT nedir ?
+* Dinamik ya da statik olarak bağlı dosya ne anlam ifade eder ?
+* "configure && make && make install" komutu ne işe yarar ?
+* puppet/chef/ansible neden kullanılır ?
+* Yeni bir postgres kullanıcısı nasıl oluşturulur ?
+* Sanal IP nedir ? Cluster nedir ?
 * What is a virtual IP address? What is a cluster?
-* What is a virtual IP address? What is a cluster?
-* How do you print all strings of printable characters present in a file?
-* How do you print all strings of printable characters present in a file?
-* How do you find shared library dependencies?
-* How do you find shared library dependencies?
-* What is Automake and Autoconf?
-* What is Automake and Autoconf?
-* ./configure shows an error that libfoobar is missing on your system, how could you fix this, what could be wrong?
-* ./configure shows an error that libfoobar is missing on your system, how could you fix this, what could be wrong?
-* What are the Advantages/disadvantages of script vs compiled program?
-* What are the Advantages/disadvantages of script vs compiled program?
-* What's the relationship between continuous delivery and DevOps?
-* What's the relationship between continuous delivery and DevOps?
-* What are the important aspects of a system of continous integration and deployment?
-* What are the important aspects of a system of continous integration and deployment?
-
-
+* Bir dosyadaki tüm yazdırılabilir karakterler nasıl yazdırılır ?
+* Paylaşılan kütüphane bağımlılıkları(shared library dependicies) nasıl bulunur ?
+* Automake ve Autoconf nedir ?
+* ./configure komutu ```libfoobar is missing on your system``` hatası veriyorsa, problem ne olabilir nasıl çözülür ?
+* Script veya derlenmiş programların avantajları ve dezavantajları nelerdir ?
+* Devamlı teslim(continuous delivery) ve DevOps arasındaki bağlantı nedir ?
+* Sistemin devamlı integrasyon(continous integration) ve devamlı canlıya alma(continous deployment) süreçlerinde önemli noktalar nelerdir ?
 
 
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
