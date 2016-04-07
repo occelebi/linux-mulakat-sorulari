@@ -225,19 +225,12 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
 * Bir mail istemci olmadan komut satırı ile bir mail nasıl yollanılır ?
 * python/perl/bash/pseudo dillerinde ```get_prim``` methodu nasıl yazılır ?
 * Son 30 gün içerisinde erişilmiş bütün dosyalar nasıl bulunur ?
-* Explain the following command ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log```
-* Explain the following command ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log```
-* Write a script to list all the differences between two directories.
-* Write a script to list all the differences between two directories.
-* In a log file with contents as ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` display summary/count of specific error numbers that occured every hour or a specific hour.
-* In a log file with contents as ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` display summary/count of specific error numbers that occured every hour or a specific hour.
-
-
+* ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log``` komutunu acikla.
+* İki dizin arasındaki bütün farkları listeyen scripti yaz.
+* ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` formatındaki bir log dosyasındaki her saat veya belirli bir saatte oluşan belirli bir hatayı nasıl gösterirsin ?
 
 
 ####[[⬆]](#toc) <a name='references'>Other Great References:</a>
-####[[⬆]](#toc) <a name='references'>Other Great References:</a>
-
 
 Some questions are 'borrowed' from other great references like:
 Some questions are 'borrowed' from other great references like:
