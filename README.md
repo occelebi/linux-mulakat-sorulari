@@ -15,6 +15,7 @@ https://github.com/chassıng/linux-sysadmin-interview-questions sayfasının tü
 1. [DevOps Soruları](#devop)
 1. [Eğlenceli Sorular](#fun)
 1. [Demo Zamanı](#demo)
+1. [Yapılacaklar](#todo)
 
 
 ####[[⬆]](#toc) <a name='general'>Genel Sorular:</a>
@@ -94,7 +95,7 @@ https://github.com/chassıng/linux-sysadmin-interview-questions sayfasının tü
 * SSH port yönlendirme(forwarding) nedir ?
 * Yerel ve uzaktaki port yönlendirme arasındaki fark nedir ?
 * useradd/adduser komutlarını kullanmadan sistemi kullanıcı eklemenin adımları nelerdir ?
-* Özel dosyalardaki MAJOR ve MİNOR numaraları ne anlama gelir ?
+* Özel dosyalardaki MAJOR ve MINOR numaraları ne anlama gelir ?
 * "filesystem is full" hatası alındığında 'df' komutu kullanabilir alan gösteriyorsa sebebi ne olabilir ?
 * Dosya silindikten sonra df komutunun boşalan alanı göstermemesinin sebebi ne olabilir ?
 * 'ps' komutu nasıl çalışır ?
@@ -226,3 +227,8 @@ https://github.com/chassıng/linux-sysadmin-interview-questions sayfasının tü
 * ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log``` komutunu acikla.
 * İki dizin arasındaki bütün farkları listeyen scripti yaz.
 * ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` formatındaki bir log dosyasındaki her saat veya belirli bir saatte oluşan belirli bir hatayı nasıl gösterirsin ?
+
+
+####[[⬆]](#toc) <a name='todo'>Yapılacaklar:</a>
+
+* Mülakat soruları diye açıldı ama soruların cevapları da fena olmaz gibi geldi
