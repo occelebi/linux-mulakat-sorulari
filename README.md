@@ -10,11 +10,11 @@ https://github.com/chassıng/linux-sysadmin-interview-questions sayfasının tü
 1. [Orta Seviye Linux Soruları](#medium)
 1. [Zor Linux Soruları](#hard)
 1. [Uzman Linux Soruları](#expert)
-1. [Networking Soruları](#network)
+1. [Ağ Soruları](#network)
 1. [MySQL Soruları](#mysql)
 1. [DevOps Soruları](#devop)
 1. [Eğlenceli Sorular](#fun)
-1. [Demo Time](#demo)
+1. [Demo Zamanı](#demo)
 
 
 ####[[⬆]](#toc) <a name='general'>Genel Sorular:</a>
