@@ -1,171 +1,170 @@
-Linux Sistem Yoneticisi/DevOps Mülakat Soruları
+Linux Sistem Yöneticisi/DevOps Mülakat Soruları
 ====================================================
 
-https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce cevirisidir.
+https://github.com/chassıng/linux-sysadmin-interview-questions sayfasının türkçe çevirisidir.
 
-## <a name='toc'>Icerik</a>
+## <a name='toc'>İçerik</a>
 
-  1. [Genel Sorular](#general)
-  1. [Basit Linux Soruları](#simple)
-  1. [Orta Seviye Linux Soruları](#medium)
-  1. [Zor Linux Soruları](#hard)
-  1. [Uzman Linux Soruları](#expert)
-  1. [Networking Soruları](#network)
-  1. [MySQL Soruları](#mysql)
-  1. [DevOps Soruları](#devop)
-  1. [Eglenceli Sorular](#fun)
-  1. [Demo Time](#demo)
-  1. [Other Great References](#references)
+1. [Genel Sorular](#general)
+1. [Basit Linux Soruları](#simple)
+1. [Orta Seviye Linux Soruları](#medium)
+1. [Zor Linux Soruları](#hard)
+1. [Uzman Linux Soruları](#expert)
+1. [Networking Soruları](#network)
+1. [MySQL Soruları](#mysql)
+1. [DevOps Soruları](#devop)
+1. [Eğlenceli Sorular](#fun)
+1. [Demo Time](#demo)
 
 
 ####[[⬆]](#toc) <a name='general'>Genel Sorular:</a>
 
-* Dun/gecen hafta ne ogrendin ?
-* Tercih ettigin gelistirme/yonetim ortamindan bahset.(OS, Editor, Browsers, Tools etc.)
-* En son yaptigin linux projesinden bahset.
-* En son yaptigin en buyuk hatadan bahset, bugun nasil cozerdin ? Neler ogrendin ?
-* Neden seni secmeliyiz ?
-* Agda DNS'in ne gibi bir rolu var ?
+* Dün/geçen hafta ne öğrendin ?
+* Tercih ettiğin geliştirme/yönetim ortamından bahset.(OS, Editör, Browsers, Tools etc.)
+* En son yaptığın linux projesinden bahset.
+* En son yaptığın en büyük hatadan bahset, bugün nasıl çözerdin ? Neler öğrendin ?
+* Neden seni seçmeliyiz ?
+* Ağda DNS'in ne gibi bir rolü var ?
 * HTTP nedir ?
-* HTTP proxy nedir, nasil calisir ?
-* Kisaca HTTPS'in nasil caligtigini acikla.
-* SMTP nedir ? Mail nasil SMTP araciligiyla ulastirilir ?
+* HTTP proxy nedir, nasıl çalışır ?
+* Kısaca HTTPS'in nasıl calığtığını açıkla.
+* SMTP nedir ? Mail nasıl SMTP aracılığıyla ulaştırılır ?
 * RAID nedir ? RAID0, RAID1, RAID5, RAID10 nedir ?
 * level 0 backup nedir ? Incremental(artan) backup nedir ?
-* Linux sisteminin genel dosya sistemi hiyerarsisini acikla.
+* Linux sisteminin genel dosya sistemi hiyerarşisini açıkla.
 
 
-####[[⬆]](#toc) <a name='simple'>Basit Linux Sorulari:</a>
+####[[⬆]](#toc) <a name='simple'>Basit Linux Soruları:</a>
 
-* Admin kullanicisinin adi ve UID'si nedir ?
-* Bir dizin icindeki sakli dosyalar dahil butun dosyalari nasil listelersin ?
-* Bir dizini ve icindekileri silen Linux komutu nedir ?
-* Kullanilabilir/kullanilmis bellegi nasil goruruz ? Kullanilmamis bellek Linux'te mevcut mudur ?
-* "my konfi is the best" cumlesini dizindeki dosyalarda ve altindaki dizinlerde nasil arariz ?
-* Uzaktaki makinaya nasil baglaniriz veya SSH nedir ?
-* Butun ortam degiskenleri nasil goruruz ve nasil kullaniriz ?
-* ```ifconfig -a``` komutunu calistirdigimda "command not found" hatasi aliyorsam problem ne olabilir ?
-* Iki kez TAB tusuna basarsam ne olur ?
-* Linux sistemlerde kullanabilir disk alanini gosteren komut nedir ?
-* DNS kayitlarini kontrol etmek icin hangi komutlar kullanilir ?
-* Hangi Linux komutlari dosyanin aidiyetini ve izinleri degistirir ?
+* Admin kullanıcısının adı ve UID'si nedir ?
+* Bir dizin içindeki saklı dosyalar dahil bütün dosyaları nasıl listelersin ?
+* Bir dizini ve içindekileri silen Linux komutu nedir ?
+* Kullanılabilir/kullanılmış belleği nasıl görürüz ? Kullanılmamış bellek Lınux'te mevcut mudur ?
+* "my konfi is the best" cümlesini dizindeki dosyalarda ve altındaki dizinlerde nasıl ararız ?
+* Uzaktaki makinaya nasıl bağlanırız veya SSH nedir ?
+* Bütün ortam değişkenleri nasıl görürüz ve nasıl kullanırız ?
+* ```ifconfig -a``` komutunu çalıştırdığımda "command not found" hatası alıyorsam problem ne olabilir ?
+* İki kez TAB tuşuna basarsam ne olur ?
+* Linux sistemlerde kullanabilir disk alanını gösteren komut nedir ?
+* DNS kayıtlarını kontrol etmek için hangi komutlar kullanılır ?
+* Hangi Linux komutları dosyanın aidiyetini ve izinleri değiştirir ?
 * ```chmod +x FILENAME``` komutu ne yapar ?
-* 0750 izninin dosya uzerinde etkisi nedir ?
-* 0750 izninin dizin uzerinde etkisi nedir ?
-* Erisim(login) izni vermeden nasil kullanici olusturulur ?
-* Bir kullaniciya nasil grup nasil eklenir, silinir ?
+* 0750 izninin dosya üzerinde etkisi nedir ?
+* 0750 izninin dizin üzerinde etkisi nedir ?
+* Erişim(login) izni vermeden nasıl kullanıcı oluşturulur ?
+* Bir kullanıcıya nasıl grup nasıl eklenir, silinir ?
 * Bash alias ne demektir ?
-* Root veya bir kullanicinin mail adresini nasil ayarlarsin ?
+* root veya bir kullanıcının mail adresini nasıl ayarlarsın ?
 * CTRL-c ne yapar ?
-* /etc/services dosyanin icinde ne saklanir ?
-* Standart cikis ve hatayi bash dilinde nasil yeniden yonlendirirsin ? (> /dev/null 2>&1)
-* UNIX ile Linux arasindaki fark nedir ?
-* Telnet ve SSH arasindaki fark nedir ?
-* Uc yuk ortamasini(three load averages) acikla, neyi gosterirler ?
+* /etc/services dosyanın içinde ne saklanır ?
+* Standart çıkış ve hatayı bash dilinde nasıl yeniden yönlendirirsin ? (> /dev/null 2>&1)
+* UNIX ile Linux arasındaki fark nedir ?
+* Telnet ve SSH arasındaki fark nedir ?
+* Üç yük ortamasını(three load averages) açıkla, neyi gösterirler ?
 
 
-####[[⬆]](#toc) <a name='medium'>Orta seviye Linux Sorulari:</a>
+####[[⬆]](#toc) <a name='medium'>Orta seviye Linux Soruları:</a>
 
-* Asagidaki komutlar ne ise yarar, nasil kullanilir ?
- * ```tee```
- * ```awk```
- * ```tr```
- * ```cut```
- * ```tac```
- * ```curl```
- * ```wget```
- * ```watch```
- * ```head```
- * ```tail```
-* ```&``` karakteri komuttan sonra gelirse nasil etki gosterir ?
-* ```& disown``` karakteri komuttan sonra gelirse ne etki gosterir ?
-* Paket filtreleme nedir, nasil kullanilir ?
+* Aşağıdaki komutlar ne işe yarar, nasıl kullanılır ?
+* ```tee```
+* ```awk```
+* ```tr```
+* ```cut```
+* ```tac```
+* ```curl```
+* ```wget```
+* ```watch```
+* ```head```
+* ```tail```
+* ```&``` karakteri komuttan sonra gelirse nasıl etki gösterir ?
+* ```& disown``` karakteri komuttan sonra gelirse ne etki gösterir ?
+* Paket filtreleme nedir, nasıl kullanılır ?
 * Sanal bellek(virtual memory) nedir ?
-* Swap nedir, ne icin kullanilir ?
-* A, NS, PTR, CNAME, MX kayitlari ne anlama gelir ?
-* Bilinen baska RR(resource record) var mi, nasil kullanilirlar ?
+* Swap nedir, ne için kullanılır ?
+* A, NS, PTR, CNAME, MX kayıtları ne anlama gelir ?
+* Bilinen başka RR(resource record) var mı, nasıl kullanılırlar ?
 * Split-Horizon DNS nedir ?
-* Sticky bit nedir ? 
-* immutable bitin dosya uzerindeki etkisi nedir ? 
-* Hardlink ve sembolik linkin arasindaki fark nedir ? Bunlarin kaynagini silinirse her iki durum icinde ne olur ?
-* Inode nedir ve ne tur bilgiler tutar ?
-* Dosya sistemi kontrolu siradaki yeniden baslatma surecinde nasil zorlanir ?
-* SNMP nedir ne icin kullanilir ?
-* runlevel nedir nasil gorulur ?
-* SSH port yonlendirme(forwarding) nedir ?
-* Yerel ve uzaktaki port yonlendirme arasindaki fark nedir ?
-* useradd/adduser komutlarini kullanmadan sistemi kullanici eklemenin adimlari nelerdir ?
-* Ozel dosyalardaki MAJOR ve MINOR numaralari ne anlama gelir ?
-* "filesystem is full" hatasi alindiginda 'df' komutu kullanabilir alan gosteriyorsa sebebi ne olabilir ?
-* Dosya silindikten sonra df komutunun bosalan alani gostermemesinin sebebi ne olabilir ?
-* 'ps' komutu nasil calisir ?
-* Olen yavru surecin onu bekleyen ebeveyn sureci yoksa ne olur ? Bu neden kotudur ?
-* Bir surecin tum sureclerini kisaca acikla.
-* Hangi surecin hangi portu dinledigi nasil ogrenilir ?
-* Zombie surec nedir ve ne sebep olur ?
-* Bir bash scripti calisirken ayni anda hem terminale cikti versin hem de dosyaya yazilsin istiyorsan ne yapmaliyiz ?
+* Sticky bit nedir ?
+* Immutable bitin dosya üzerindeki etkisi nedir ?
+* Hardlink ve sembolik lınkin arasındaki fark nedir ? Bunların kaynağını silinirse her iki durum içinde ne olur ?
+* Inode nedir ve ne tür bilgiler tutar ?
+* Dosya sistemi kontrolü sıradaki yeniden başlatma sürecinde nasıl zorlanır ?
+* SNMP nedir ne için kullanılır ?
+* runlevel nedir nasıl görülür ?
+* SSH port yönlendirme(forwarding) nedir ?
+* Yerel ve uzaktaki port yönlendirme arasındaki fark nedir ?
+* useradd/adduser komutlarını kullanmadan sistemi kullanıcı eklemenin adımları nelerdir ?
+* Özel dosyalardaki MAJOR ve MİNOR numaraları ne anlama gelir ?
+* "filesystem is full" hatası alındığında 'df' komutu kullanabilir alan gösteriyorsa sebebi ne olabilir ?
+* Dosya silindikten sonra df komutunun boşalan alanı göstermemesinin sebebi ne olabilir ?
+* 'ps' komutu nasıl çalışır ?
+* Ölen yavru sürecin onu bekleyen ebeveyn süreci yoksa ne olur ? Bu neden kötüdür ?
+* Bir sürecin tüm süreçlerini kısaca açıkla.
+* Hangi sürecin hangi portu dinlediği nasıl öğrenilir ?
+* Zombie süreç nedir ve ne sebep olur ?
+* Bir bash scripti çalışırken aynı anda hem terminale çıktı versin hem de dosyaya yazılsın istiyorsan ne yapmalıyız ?
 * echo "1" > /proc/sys/net/ipv4/ip_forward komutu ne yapar ?
-* https://foo.example.com sitesi icin gecerli sertifika olusturup yuklemenin adimlarini kisaca acikla.
-* Birkac HTTPS sanal host ayni IP'yi paylasabilir mi ? 
+* https://foo.example.com sitesi için geçerli sertifika oluşturup yüklemenin adımlarını kısaca açıkla.
+* Birkaç HTTPS sanal host aynı IP'yi paylaşabilir mi ?
 * Wildcard sertifika nedir ?
 * Hangi Linux dosya tiplerini biliyorsun ?
-* Surec(process) ile thread arasindaki fark nedir ? Fork sistem cagrisindan sonra ebeveyn ve yavru surecler arasindaki fark nasil olur ?
-* Fork ve exec arasindaki fark nedir ?
-* "nohup" ne icin kullanilir ?
-* Asagidaki iki komutun farki nedir ?
- * ```myvar=hello```
- * ```export myvar=hello```
-* Yerel ntp.conf dosyasinda kac tane NTP sunucusu bulundururdun ?
-* ```ntpq -p``` komutunun ciktisinda 'reach' sutunu ne anlama gelir ?
-* 100-1000 sunucunu arasindaki bir sayidaki sunucunun kernel guncellemesini nasil yapardin ?
-* SCSI diskin, Host, Channel, ID, LUN degerlerini nasil gorursun ?
-* Bir surecin bellek kullanimini nasil kisitlarsin ?
+* Süreç(process) ile thread arasındaki fark nedir ? Fork sistem çağrısından sonra ebeveyn ve yavru süreçler arasındaki fark nasıl olur ?
+* Fork ve exec arasındaki fark nedir ?
+* "nohup" ne için kullanılır ?
+* Aşağıdaki iki komutun farkı nedir ?
+* ```myvar=hello```
+* ```export myvar=hello```
+* Yerel ntp.conf dosyasında kaç tane NTP sunucusu bulundururdun ?
+* ```ntpq -p``` komutunun çıktısında 'reach' şutunu ne anlama gelir ?
+* 100-1000 sunucunu arasındaki bir sayıdaki sunucunun kernel güncellemesini nasıl yapardın ?
+* SCSI dışkın, Host, Channel, ID, LUN değerlerini nasıl görürsün ?
+* Bir sürecin bellek kullanımını nasıl kısıtlarsın ?
 
 
-####[[⬆]](#toc) <a name='hard'>Zor linux sorulari:</a>
+####[[⬆]](#toc) <a name='hard'>Zor linux soruları:</a>
 
-* Tunel nedir, http proxy'i nasil bypass edersin ?
-* IDS ve IPS arasindaki fark nedir ?
-* Ne tur kisayollari genelde kullanilirsin ?
+* Tünel nedir, http proxy'i nasıl bypass edersin ?
+* İDS ve İPS arasındaki fark nedir ?
+* Ne tür kısayolları genelde kullanılırsın ?
 * Linux Standard Base nedir ?
 * Atomik operasyon nedir ?
-* Yeni yapilandirdigin http sunucusu yeniden makina yeniden baslatildiktan sonra calismiyorsa ne yaparsin ?
-* ~/.ssh/authorized_keys dosyasinda ne tur anahtarlar tutulur ve ne icin kullanilir ?
-* Public ssh anahtarimi authorized_keys dosyasina ekledim ama hala sifre girmem gerekiyor, sorun nerde olabilir ?
-* RPM, DEB veya solaris paketi olusturdun mu hic ? 
-* ```:(){ :|:& };:``` komutu ne ise yarar ?
-* Linux sinyalini script araciligiyla nasil yakalarsin ?
+* Yeni yapılandırdığın http sunucusu yeniden makina yeniden başlatıldıktan sonra çalışmıyorsa ne yaparsın ?
+* ~/.ssh/authorized_keys dosyasında ne tür anahtarlar tutulur ve ne için kullanılır ?
+* Public ssh anahtarımı authorized_keys dosyasına ekledim ama hala şifre girmem gerekiyor, sorun nerde olabilir ?
+* RPM, DEB veya solaris paketi oluşturdun mu hiç ?
+* ```:(){ :|:& };:``` komutu ne işe yarar ?
+* Linux sinyalini script aracılığıyla nasıl yakalarsın ?
 * SIGKILL sinyali yakalanabilir mi ?
-* Linux cekirdigi OOM killer'i baslattiginde ne olur, hangi sureci ilk durduracagini nasil secer ?
-* Linux boot surecini makinaya enerji vermekten promtu alana kadar olabildigince detayli anlatin. 
+* Linux çekirdiği OOM killer sürecini başlattığında ne olur, hangi süreci ilk durduracağını nasıl seçer ?
+* Linux boot sürecini makinaya enerji vermekten promtu alana kadar olabildiğince detaylı anlat.
 * Chroot jail nedir ?
-* umount komutu dizinin mesgul oldugunu soyluyorsa dizini alikoyan surecin PID'sini nasil buluruz ? 
-* LD_PRELOAD nedir, ne zaman kullanilir ?
-* Bir ikili(binary) dosya calistirdin ama hic birsey olmadi, nasil debug edersiniz ?
-* cgroup nedir ? Ne gibi bir durumda kullanilirlar ?
+* umount komutu dizinin meşgul olduğunu söylüyorsa dizini alıkoyan sürecin PID'sini nasıl buluruz ?
+* LD_PRELOAD nedir, ne zaman kullanılır ?
+* Bir ikili(binary) dosya çalıştırdın ama hiç birşey olmadı, nasıl debug edilir ?
+* cgroup nedir ? Ne gibi bir durumda kullanılırlar ?
 
 
-####[[⬆]](#toc) <a name='expert'>Uzman Linux Sorulari:</a>
+####[[⬆]](#toc) <a name='expert'>Uzman Linux Soruları:</a>
 
 
-* Calisan bir surec soketi okurken ```EAGAIN: Resource temporarily unavailable``` hatasi aliyor. Sureci durdurmadan soket veya dosya descriptoru nasil kapatirsin ?
+* Çalışan bir süreç soketi okurken ```EAGAIN: Resource temporarily unavaılable``` hatası alıyor. Süreci durdurmadan soket veya dosya descriptoru nasıl kapatırsın ?
 
 
-####[[⬆]](#toc) <a name='network'>Ag Sorulari:</a>
+####[[⬆]](#toc) <a name='network'>Ağ Soruları:</a>
 
 * localhost nedir ? Neden ```ping localhost``` komutu hata verir ?
-* "ping" & "traceroute" komutu arasinda benzerlik nedir ? traceroute hoplari nasil bulur ?
-* Butun port ve soket baglantilarini gosteren komut nedir ?
-* 300.168.0.123 gecerli bir IPv4 adresi midir ?
-* Hangi IP araliklari/altaglari "private" veya "non-routable" (RFC 1918) kategorisine girer ?
+* "ping" & "traceroute" komutu arasında benzerlik nedir ? traceroute hopları nasıl bulur ?
+* Bütün port ve soket bağlantılarını gösteren komut nedir ?
+* 300.168.0.123 geçerli bir IPv4 adresi midir ?
+* Hangi IP aralıkları/altağları "private" veya "non-routable" (RFC 1918) kategorisine girer ?
 * VLAN nedir ?
-* ARP nedir ve ne icin kullanilir ?
-* TCP ve UDP arasindaki fark nedir ?
-* Varsayilan gateway ne icin kullanilir ?
-* Yonlendirme tablosunu gosteren komut nedir ?
-* Bir TCP baglantisi agda 4 farkli essiz sey ile tanimlanir. Bunlar nedir ?
-* Istemci web tarayicisi ile web sunucusuna baglandiginda baglantinin kaynak ve hedef portu ne olur ?
-* Ozel bir arayuze IPv6 adres nasil eklenir ?
+* ARP nedir ve ne için kullanılır ?
+* TCP ve UDP arasındaki fark nedir ?
+* Varsayılan gateway ne için kullanılır ?
+* Yönlendirme tablosunu gösteren komut nedir ?
+* Bir TCP bağlantısı ağda 4 farklı eşsiz şey ile tanımlanır. Bunlar nedir ?
+* İstemci web tarayıcısı ile web sunucusuna bağlandığında bağlantının kaynak ve hedef portu ne olur ?
+* Özel bir arayüze İPv6 adres nasıl eklenir ?
 * eth0 arayüzüne IPv4 ve IPv6 adresine ekledikten sonra v4 adresine gönderilen ping çalışıyor fakat v6 adresine gönderilen pingin sonucu ```sendmsg: operation not permitted``` hatası alınıyorsa problem ne olabilir ?
 * SNAT nedir ne için kullanılır ? 
 * SSH tünelinden gelen bütün bağlantı paketlerini DROP eden bir linux sistemine ssh ile nasıl bağlanırsınız ? 
@@ -193,7 +192,6 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
 * puppet/chef/ansible neden kullanılır ?
 * Yeni bir postgres kullanıcısı nasıl oluşturulur ?
 * Sanal IP nedir ? Cluster nedir ?
-* What is a virtual IP address? What is a cluster?
 * Bir dosyadaki tüm yazdırılabilir karakterler nasıl yazdırılır ?
 * Paylaşılan kütüphane bağımlılıkları(shared library dependicies) nasıl bulunur ?
 * Automake ve Autoconf nedir ?
@@ -228,23 +226,3 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasinin turkce
 * ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log``` komutunu acikla.
 * İki dizin arasındaki bütün farkları listeyen scripti yaz.
 * ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` formatındaki bir log dosyasındaki her saat veya belirli bir saatte oluşan belirli bir hatayı nasıl gösterirsin ?
-
-
-####[[⬆]](#toc) <a name='references'>Other Great References:</a>
-
-Some questions are 'borrowed' from other great references like:
-Some questions are 'borrowed' from other great references like:
-
-
-* https://github.com/darcyclarke/Front-end-Developer-Interview-Questions
-* https://github.com/darcyclarke/Front-end-Developer-Interview-Questions
-* https://github.com/kylejohnson/linux-sysadmin-interview-questions/blob/master/test.md
-* https://github.com/kylejohnson/linux-sysadmin-interview-questions/blob/master/test.md
-* https://github.com/gurmeet1109/docgurmeet/tree/master/InterviewQuestionsSamples
-* https://github.com/gurmeet1109/docgurmeet/tree/master/InterviewQuestionsSamples
-* http://slideshare.net/kavyasri790693/linux-admin-interview-questions
-* http://slideshare.net/kavyasri790693/linux-admin-interview-questions
-* https://github.com/gurmeet1109/docgurmeet/tree/master/InterviewQuestionsSamples
-* https://github.com/gurmeet1109/docgurmeet/tree/master/InterviewQuestionsSamples
-* https://github.com/kylejohnson/linux-sysadmin-interview-questions/blob/master/test.md
-* https://github.com/kylejohnson/linux-sysadmin-interview-questions/blob/master/test.md
