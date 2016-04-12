@@ -1,7 +1,7 @@
 Linux Sistem Yöneticisi/DevOps Mülakat Soruları
 ====================================================
 
-https://github.com/chassıng/linux-sysadmin-interview-questions sayfasının türkçe çevirisidir.
+https://github.com/chassing/linux-sysadmin-interview-questions sayfasının türkçe çevirisidir.
 
 ## <a name='toc'>İçerik</a>
 
