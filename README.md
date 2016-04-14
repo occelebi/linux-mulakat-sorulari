@@ -232,3 +232,4 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 ####[[⬆]](#toc) <a name='todo'>Yapılacaklar:</a>
 
 * Mülakat soruları diye açıldı ama soruların cevapları da fena olmaz gibi geldi
+* Gözden kaçan yazım hatalarına da açığım tabii :)
