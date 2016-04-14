@@ -225,7 +225,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Son 30 gün içerisinde erişilmiş bütün dosyalar nasıl bulunur ?
 * ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log``` komutunu acikla.
 * İki dizin arasındaki bütün farkları listeyen scripti yaz.
-* ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` formatındaki bir log dosyasındaki her saat veya belirli bir saatte oluşan belirli bir hatayı nasıl gösterirsin ?
+* ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` formatındaki bir log dosyasındaki her saat veya belirli bir saatte oluşan belirli bir hata nasıl gösterilir ?
 
 
 ####[[⬆]](#toc) <a name='todo'>Yapılacaklar:</a>
