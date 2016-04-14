@@ -1,4 +1,4 @@
-Linux Sistem Yöneticisi/DevOps Mülakat/İş görüşmesi Soruları
+Linux Sistem Yöneticisi/DevOps Mühendisi Mülakat/İş Görüşmesi Soruları
 ====================================================
 
 https://github.com/chassing/linux-sysadmin-interview-questions sayfasının türkçe çevirisidir.
