@@ -147,7 +147,6 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 
 ####[[⬆]](#toc) <a name='expert'>Uzman Linux Soruları:</a>
 
-
 * Çalışan bir süreç soketi okurken ```EAGAIN: Resource temporarily unavaılable``` hatası alıyor. Süreci durdurmadan soket veya dosya descriptoru nasıl kapatırsın ?
 
 
