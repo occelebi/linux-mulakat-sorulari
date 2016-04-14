@@ -208,7 +208,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Uzaktaki bir sunucuyu yeniden başlattım ama 10 dakika geçmesine rağmen hala ssh ile sisteme bağlanılmıyorsa problem ne olabilir ?
 * Issız bir adaya düşsen yanına alacağın 5 linux komutu nedir ?
 * Rastgele bir makinaya denk geldin, ilk olarak çalıştıracağın komut ne olurdu ?
-* SSH protokolünü farklı şekilde kullandın mı hiç ? 
+* SSH protokolü farklı şekillerde nasıl kullanılabilir ?
 * Çalışan bir script yanlışlıkla sildin, nasıl geri getirirsin ?
 
 
