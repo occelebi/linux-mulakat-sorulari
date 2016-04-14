@@ -28,7 +28,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Ağda DNS'in ne gibi bir rolü var ?
 * HTTP nedir ?
 * HTTP proxy nedir, nasıl çalışır ?
-* Kısaca HTTPS'in nasıl calıştığını açıkla.
+* Kısaca HTTPS'in nasıl çalıştığını açıkla.
 * SMTP nedir ? Mail nasıl SMTP aracılığıyla ulaştırılır ?
 * RAID nedir ? RAID0, RAID1, RAID5, RAID10 nedir ?
 * level 0 backup nedir ? Incremental(artan) backup nedir ?
