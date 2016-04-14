@@ -223,7 +223,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Bir mail istemci olmadan komut satırı ile bir mail nasıl yollanılır ?
 * python/perl/bash/pseudo dillerinde ```get_prim``` methodu nasıl yazılır ?
 * Son 30 gün içerisinde erişilmiş bütün dosyalar nasıl bulunur ?
-* ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log``` komutunu acikla.
+* ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log``` komutunun işlevi nedir ?
 * İki dizin arasındaki bütün farkları listeyen scripti yaz.
 * ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` formatındaki bir log dosyasındaki her saat veya belirli bir saatte oluşan belirli bir hata nasıl gösterilir ?
 
