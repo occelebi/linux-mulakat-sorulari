@@ -190,6 +190,8 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Dinamik ya da statik olarak bağlı dosya ne anlam ifade eder ?
 * "configure && make && make install" komutu ne işe yarar ?
 * puppet/chef/ansible neden kullanılır ?
+* nagios/zenoss/newrelic ne içindir ?
+* Konteyner ile VM (sanal makina) arasındaki fark nedir ?
 * Yeni bir postgres kullanıcısı nasıl oluşturulur ?
 * Sanal IP nedir ? Cluster nedir ?
 * Bir dosyadaki tüm yazdırılabilir karakterler nasıl yazdırılır ?
