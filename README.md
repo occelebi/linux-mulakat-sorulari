@@ -169,7 +169,8 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * SNAT nedir ne için kullanılır ? 
 * SSH tünelinden gelen bütün bağlantı paketlerini DROP eden bir linux sistemine ssh ile nasıl bağlanırsınız ? 
 * DDoS'u durdurmak için en yaparsın ?
-* IP paketinin içerini nasıl görürsün ?
+* IP paketinin içeriğini nasıl görürsün ?
+* IPoAC nedir ? (RFC 1149)
 
 
 ####[[⬆]](#toc) <a name='mysql'>MySQL Soruları:</a>
@@ -181,6 +182,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Basit bir master/slave cluster kurmak için hangi adımlar gereklidir ?
 * MySQL'i kurduktan sonra neden "mysql_secure_installation" çalıstırılmalıdır ? 
 * Hangi işlerin çalıştığını nasıl görülür ?
+* 19 Ocak 2038 tarihinde ne olacak ?
 
 
 ####[[⬆]](#toc) <a name='devop'>DevOps Soruları:</a>
