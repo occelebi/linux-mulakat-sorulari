@@ -120,6 +120,9 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * 100-1000 sunucunu arasındaki bir sayıdaki sunucunun kernel güncellemesini nasıl yapardın ?
 * SCSI dışkın, Host, Channel, ID, LUN değerlerini nasıl görürsün ?
 * Bir sürecin bellek kullanımını nasıl kısıtlarsın ?
+* Bash quick substitution/caret replace(^x^y) nedir ?
+* Farklı kabuk(shell) çeşitleri biliyor musun ? Evetse, kullanma imkanın oldu mu?
+* Tarpipe nedir ? (ya da hard linkler ve özel dosyalar dahil olmak üzere birşeyi bir sunucudan diğerine komple olarak nasıl kopyalarsın ?
 
 
 ####[[⬆]](#toc) <a name='hard'>Zor linux soruları:</a>
@@ -227,7 +230,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Bir mail istemci olmadan komut satırı ile bir mail nasıl yollanılır ?
 * python/perl/bash/pseudo dillerinde ```get_prim``` methodu nasıl yazılır ?
 * Son 30 gün içerisinde erişilmiş bütün dosyalar nasıl bulunur ?
-* ```(date ; ps -ef | awk ‘{print $1}’ | sort | uniq | wc -l ) >> Activity.log``` komutunun işlevi nedir ?
+* ```(date ; ps -ef | awk '{print $1}' | sort | uniq | wc -l ) >> Activity.log``` komutunun işlevi nedir ?
 * İki dizin arasındaki bütün farkları listeyen scripti yaz.
 * ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` formatındaki bir log dosyasındaki her saat veya belirli bir saatte oluşan belirli bir hata nasıl gösterilir ?
 
