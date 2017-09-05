@@ -239,3 +239,4 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 
 * Mülakat soruları diye açıldı ama soruların cevapları da fena olmaz gibi geldi
 * Gözden kaçan yazım hatalarına da açığım tabii :)
+* Ara ara gelen güncellemeleri pek takip edemedim. Orjinal siteden çevirmek isteyen varsa hoş olur.
