@@ -18,7 +18,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 1. [Yapılacaklar](#todo)
 
 
-####[[⬆]](#toc) <a name='general'>Genel Sorular:</a>
+#### [[⬆]](#toc) <a name='general'>Genel Sorular:</a>
 
 * Dün/geçen hafta ne öğrendin?
 * Tercih ettiğin geliştirme/yönetim ortamından bahset.(OS, Editör, Browsers, Tools etc.)
@@ -35,7 +35,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Linux sisteminin genel dosya sistemi hiyerarşisini açıkla.
 
 
-####[[⬆]](#toc) <a name='simple'>Basit Linux Soruları:</a>
+#### [[⬆]](#toc) <a name='simple'>Basit Linux Soruları:</a>
 
 * Admin kullanıcısının adı ve UID'si nedir?
 * Bir dizin içindeki saklı dosyalar dahil bütün dosyaları nasıl listelersin?
@@ -64,7 +64,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Üç yük ortalamasını (three load averages) açıkla, neyi gösterirler?
 
 
-####[[⬆]](#toc) <a name='medium'>Orta seviye Linux Soruları:</a>
+#### [[⬆]](#toc) <a name='medium'>Orta seviye Linux Soruları:</a>
 
 * Aşağıdaki komutlar ne işe yarar, nasıl kullanılır?
 * ```tee```
@@ -125,7 +125,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Tarpipe nedir? (ya da hard linkler ve özel dosyalar dahil olmak üzere birşeyi bir sunucudan diğerine komple olarak nasıl kopyalarsın?)
 
 
-####[[⬆]](#toc) <a name='hard'>Zor Linux soruları:</a>
+#### [[⬆]](#toc) <a name='hard'>Zor Linux soruları:</a>
 
 * Tünel nedir, HTTP Proxy'i nasıl bypass edersin?
 * IDS ve IPS arasındaki fark nedir?
@@ -148,12 +148,12 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Cgroup nedir? Ne gibi bir durumda kullanılırlar?
 
 
-####[[⬆]](#toc) <a name='expert'>Uzman Linux Soruları:</a>
+#### [[⬆]](#toc) <a name='expert'>Uzman Linux Soruları:</a>
 
 * Çalışan bir süreç socketi okurken ```EAGAIN: Resource temporarily unavaılable``` hatası alıyor. Süreci durdurmadan socket veya file descriptoru nasıl kapatırsın?
 
 
-####[[⬆]](#toc) <a name='network'>Ağ Soruları:</a>
+#### [[⬆]](#toc) <a name='network'>Ağ Soruları:</a>
 
 * Localhost nedir? Neden ```ping localhost``` komutu hata verir?
 * "ping" & "traceroute" komutu arasında benzerlik nedir? Traceroute hopları nasıl bulur?
@@ -176,7 +176,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * IPoAC nedir? (RFC 1149)
 
 
-####[[⬆]](#toc) <a name='mysql'>MySQL Soruları:</a>
+#### [[⬆]](#toc) <a name='mysql'>MySQL Soruları:</a>
 
 * Kullanıcı nasıl oluşturulur?
 * Kullanıcıya nasıl yetki verilir?
@@ -188,7 +188,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * 19 Ocak 2038 tarihinde ne olacak?
 
 
-####[[⬆]](#toc) <a name='devop'>DevOps Soruları:</a>
+#### [[⬆]](#toc) <a name='devop'>DevOps Soruları:</a>
 
 * Bir script oluştururkenki çalışma akışını (workflow) açıklar mısın?
 * GIT nedir?
@@ -208,7 +208,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Sistemin devamlı integrasyon (continous integration) ve devamlı canlıya alma (continous deployment) süreçlerinde önemli noktalar nelerdir?
 
 
-####[[⬆]](#toc) <a name='fun'>Eğlenceli Sorular:</a>
+#### [[⬆]](#toc) <a name='fun'>Eğlenceli Sorular:</a>
 
 * Dikkatsiz bir sistem yöneticisi şu komutu çalıştırdıysa: ```chmod 444 /bin/chmod ``` - nasıl düzeltirdin?
 * root şifresini kaybettin, bu durumda ne yapılabilir?
@@ -219,7 +219,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Çalışan bir script yanlışlıkla sildin, nasıl geri getirirsin?
 
 
-####[[⬆]](#toc) <a name='demo'>Demo Zamanı:</a>
+#### [[⬆]](#toc) <a name='demo'>Demo Zamanı:</a>
 
 * test.tar.gz dosyasını man sayfalarına ya da Google'a bakmadan nasıl açarsın?
 * testdir dizininden bütün "*.pyc" dosyalarını nasıl silinir?
@@ -235,7 +235,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` formatındaki bir log dosyasındaki her saat veya belirli bir saatte oluşan belirli bir hata nasıl gösterilir?
 
 
-####[[⬆]](#toc) <a name='todo'>Yapılacaklar:</a>
+#### [[⬆]](#toc) <a name='todo'>Yapılacaklar:</a>
 
 * Mülakat soruları diye açıldı ama soruların cevapları da fena olmaz gibi geldi
 * Gözden kaçan yazım hatalarına da açığım tabii :)
