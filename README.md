@@ -52,7 +52,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Bütün ortam değişkenleri nasıl görürüz ve nasıl kullanırız?
 1. env komutu ile görebiliriz. $ ile yani normal tanımladığımız değişkeni çağırıyormuş gibi kullanabiliriz.
 * ```ifconfig -a``` komutunu çalıştırdığımda "command not found" hatası alıyorsam problem ne olabilir?
-1. komut satırı kullanırken bir komutu yazarız direk çalışır PATH env `si hangi dizindeki dosyalar çalıştırılabilir dosyalar bunu tutar bu env`da muhtemelen /usr/sbin olmadığı için komut bulunamadı diyor. PATH env`ını günceller yada komutun path`ini girersen çalışır.
+1. komut satırı kullanırken bir komutu yazarız direk çalışır PATH env 'si hangi dizindeki dosyalar çalıştırılabilir dosyalar bunu tutar bu env'da muhtemelen /usr/sbin olmadığı için komut bulunamadı diyor. PATH env`ını günceller yada komutun path'ini girersen çalışır.
 * İki kez TAB tuşuna basarsam ne olur?
 1. hiç harf girmediysen birşey yapmaz harf girdiysen o harfdeki tüm komutları gösterir. eğer komutu yarım yazdıysan o hali tek bir komutu gösteriyorsa tamamlar aynı şeyi path girerkende yapar dosya ismini yarım yazarsan onu tamamlar.
 * Linux sistemlerde kullanabilir disk alanını gösteren komut nedir?
@@ -69,7 +69,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 1. user için dosyanın içine girme dosya dizin silme,taşıma,oluşturma gibi yetkileri vardır. group için ise dosya ismi değiştirme,silme,oluşturma gibi işlevleri yapamazsın. Bu yetkilerin dosyanın hemen altında geçerli olduğunu unutmayın.
 * Erişim (login) izni vermeden nasıl kullanıcı oluşturulur?
 * Bir kullanıcıya nasıl grup nasıl eklenir, silinir?
-1. /etc/group dosyasından group`a karşılık gelen satıra user`ı ekle. Komutlada yapılabilir ama sistemde o komut olmayabilir veya o iş için farklı komutlar kullanılıyr olabilir bu daha garanti. 
+1. /etc/group dosyasından group'a karşılık gelen satıra user'ı ekle. Komutlada yapılabilir ama sistemde o komut olmayabilir veya o iş için farklı komutlar kullanılıyr olabilir bu daha garanti. 
 * Bash alias ne demektir?
 1. takma ad yani bir komut veya komut dizisine başka bir isim vermek istersen kullanabilirsin.
 * root veya bir kullanıcının mail adresini nasıl ayarlarsın?
