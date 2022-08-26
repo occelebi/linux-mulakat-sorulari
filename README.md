@@ -78,6 +78,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * /etc/services dosyanın içinde ne saklanır?
 * Standart çıkış ve hatayı Bash dilinde nasıl yeniden yönlendirirsin? (> /dev/null 2>&1)
 * UNIX ile Linux arasındaki fark nedir?
+1. unix dağıtımları ve linuxdağıtımları arasındaki farklılıklarmı kernel olarak unix ve linux`un farklılıklarındanmı bahsediyorsunuz işletim sistemi olarakmı linux dağıtımları ve linux kernel ilk unix`i örnek almıştır. Unix artık geliştirilmiyor ama unix`in açık kaynak kernel`ını bazı dağıtımların bünyesinde gelişmeye devam etmiştir. freebsd,openbsd gibi 
 * Telnet ve SSH arasındaki fark nedir?
 1. Birinin iletişimi şifresiz diğerinin şifrelidir. İkiside ağ üzerinden veri aktarımı içindir.
 * Üç yük ortalamasını (three load averages) açıkla, neyi gösterirler?
@@ -139,6 +140,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 1. Ne türde bir paylaşım DNS ile farklı hostlardaki servislere erişimden bahsediyorsanız sunucu yazılımını proxy olarak ayarlayıp DNS firmasındada proxied olarak servisin ip ve port`unu bir DNS`e atayabilirsiniz.
 * Wildcard sertifika nedir?
 * Hangi Linux dosya tiplerini biliyorsun?
+1. binary,static link library,dynamic link library,shell dosyaları,
 * Süreç (process) ile thread arasındaki fark nedir? Fork sistem çağrısından sonra ebeveyn ve yavru süreçler arasındaki fark nasıl olur?
 * Fork ve exec arasındaki fark nedir?
 * "nohup" ne için kullanılır?
@@ -149,8 +151,10 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Yerel ntp.conf dosyasında kaç tane NTP sunucusu bulundururdun?
 * ```ntpq -p``` komutunun çıktısında 'reach' şutunu ne anlama gelir?
 * 100-1000 sunucunu arasındaki bir sayıdaki sunucunun kernel güncellemesini nasıl yapardın?
+1. sunucular donanım olarak birbirerinin aynı ise en güncel kernel'ı donanıma uygun config ederek derlerim sunucuların birini cluster'ından güvenli biçimde ayırır güncellerim bir sorun oluşmadı ise kernel`ı sunucuların linux dağıtımına göre paketleyip sunucuları kademe kademe cluster'ından güvenli şekilde ayırarak güncellerim ve geri eklerim. Tabi altyapı mimarisine göre işler değişir storage kullanılmıyorsa çok büyük boyutlu veri kullanan servislerin sunucularını gücellemek sorun olabilir bu verilerin taşınması gerekir ama gerçek zamanlı veri yazılıyorsa db ise hiç hizmet kesintisi olmadan yapabilmek için epey düşünmek gerekir. altyapı mimarisine bağlı bu birazda
 * SCSI dışkın, Host, Channel, ID, LUN değerlerini nasıl görürsün?
 * Bir sürecin bellek kullanımını nasıl kısıtlarsın?
+1. prlimit ile kısıtlayabilirim.
 * Bash quick substitution/caret replace(^x^y) nedir?
 * Farklı kabuk (shell) çeşitleri biliyor musun? Evetse, kullanma imkanın oldu mu?
 * Tarpipe nedir? (ya da hard linkler ve özel dosyalar dahil olmak üzere birşeyi bir sunucudan diğerine komple olarak nasıl kopyalarsın?)
@@ -269,9 +273,13 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 
 * test.tar.gz dosyasını man sayfalarına ya da Google'a bakmadan nasıl açarsın?
 * testdir dizininden bütün "*.pyc" dosyalarını nasıl silinir?
+1. rm testdir/*.pyc
 * "my konfu is the best" içeriği bütün *.py dosyalarında nasıl aranır?
+1. bunların hepsi aynı dosyanın içinde ise find . -name "*.py"
 * Bütün *.txt dosyalarındaki her "my konfu is the best" metinini "I'm a Linux jedi master" ile değiştir.
+1. find . -name "*.txt" -exec echo "I'm a Linux jedi master" > {} \;
 * IP adresi X.X.X.X olan makinanın 443 portunun erişilir olduğu nasıl kontrol edilir?
+1. curl X.X.X.X:443
 * Telnet ile http://myinternal.webserver.local/test.html sayfasını nasıl indirilir? 
 * Bir mail istemci olmadan komut satırı ile bir mail nasıl yollanılır?
 * python/perl/bash/pseudo dillerinde ```get_prim``` methodu nasıl yazılır?
