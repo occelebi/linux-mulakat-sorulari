@@ -26,6 +26,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Son yaptığın en büyük hatadan bahset, bugün nasıl çözerdin? Neler öğrendin?
 * Neden seni seçmeliyiz?
 * Ağda DNS'in ne gibi bir rolü var?
+1. DNS(Domain Name Server)'lar, domain adına karşılık gelen ip'leri tutar. client resolv.conf gibi bir program aracılığı ile bu indexden yazdığı domain'in ip sine gitmesi sağlanmış olur.
 * HTTP nedir?
 * HTTP proxy nedir, nasıl çalışır?
 * Kısaca HTTPS'in nasıl çalıştığını açıkla.
@@ -33,7 +34,6 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * RAID nedir? RAID0, RAID1, RAID5, RAID10 nedir?
 * Level 0 backup nedir? Incremental(artan) backup nedir?
 * Linux sisteminin genel dosya sistemi hiyerarşisini açıkla.
-
 
 #### [[⬆]](#toc) <a name='simple'>Basit Linux Soruları:</a>
 
@@ -146,6 +146,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * "nohup" ne için kullanılır?
 1. ssh`ı kapattıktan sonrada komutun devam etmesi için kullanıyorum nohup komut &
 * Aşağıdaki iki komutun farkı nedir?
+1. 2 komutta env belirlemek için kullanılır ama 1. tanım sadece oluşturulduğu session`da geçerlidir. 2. tanım o session`ın alt session`larındada geçerlidir.
 * ```myvar=hello```
 * ```export myvar=hello```
 * Yerel ntp.conf dosyasında kaç tane NTP sunucusu bulundururdun?
@@ -157,6 +158,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 1. prlimit ile kısıtlayabilirim.
 * Bash quick substitution/caret replace(^x^y) nedir?
 * Farklı kabuk (shell) çeşitleri biliyor musun? Evetse, kullanma imkanın oldu mu?
+1. zsh,csh,ksh,ash,sh,bash var olduğunu bildiğim shell`ler, ash,sh ve tabiki bash dışında kullanmadım.
 * Tarpipe nedir? (ya da hard linkler ve özel dosyalar dahil olmak üzere birşeyi bir sunucudan diğerine komple olarak nasıl kopyalarsın?)
 
 
@@ -184,6 +186,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Umount komutu dizinin meşgul olduğunu söylüyorsa dizini alıkoyan sürecin PID'sini nasıl buluruz?
 * LD_PRELOAD nedir, ne zaman kullanılır?
 * Bir ikili (binary) dosya çalıştırdın ama hiç birşey olmadı, nasıl debug edilir?
+1. strace ile çalıştırırı
 * Cgroup nedir? Ne gibi bir durumda kullanılırlar?
 
 
@@ -229,11 +232,13 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * MySQL'i kurduktan sonra neden "mysql_secure_installation" çalıstırılmalıdır? 
 * Hangi işlerin çalıştığını nasıl görülür?
 * 19 Ocak 2038 tarihinde ne olacak?
+1. 1970'den beri bilgisayarlarda bulunan saatler saniyeyide tutar ve tek tek artar,2038'de 32 bit integer bir değerin tutabileceği max unsigned integer değerine ulaşacak ve artamayacak olay bu 32 bir bilgisayarlar artık saat'i gösteremeyecek, şuanki programlama pratikleriyle aşılabilecek bir sorun ama zaten 2038 yılında 32 bit bilgisayar kalmaz muhtemelen kalsa bile üreticiler yazılım güncellemesi vermez :). Ama o tarihte bunu düzelten kişilerin youtube videolarını görebiliriz. Neden saniyeyi tutuyor kısmında çok bir bilgim yok sadece secure bağlantılarda ve ssl-tls'de kullanıldığını biliyorum. Aklıma birşey geldi, ntp kullanabiliriz sistemde bios için zaman ayarı her zaman için çok önemli değil zaten. :p
 
 
 #### [[⬆]](#toc) <a name='devop'>DevOps Soruları:</a>
 
 * Bir script oluştururkenki çalışma akışını (workflow) açıklar mısın?
+1. soruyu yanlış anlamış olabirim ama, bir dosya oluştur script dili neyse uzantısını yaz yazmayadabilirsin sadece ismini yaz. içine git yazılan kodun nerede yorumlanacağını seçmek için #!/path/to/interpreter yaz. alt satırlara geç script`i yazmaya devam et.
 * GIT nedir?
 1. versiyon kontrol sistemi yani kodundaki gelişmeleri eklemeleri görebildiğin sürümlere, kodundaki geliştirmeleri kayıt altına alabildiğin hatta geliştirmelere ne yaptığını yazabildiğin birşey.
 * Dinamik ya da statik olarak bağlı dosya ne anlam ifade eder?
@@ -242,13 +247,17 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * puppet/chef/ansible neden kullanılır?
 * nagios/zenoss/newrelic ne içindir?
 * Konteyner ile VM (sanal makina) arasındaki fark nedir?
+1. Temel fark konteyner'da kernel`a ihtiyaç duymaması, vm'de ihtiyaç duyulması
 * Yeni bir postgres kullanıcısı nasıl oluşturulur?
 * Sanal IP nedir? Cluster nedir?
 * Bir dosyadaki tüm yazdırılabilir karakterler nasıl yazdırılır?
-* Paylaşılan kütüphane bağımlılıkları (shared library dependicies) nasıl bulunur?
+* Paylaşılan kütüphane bağımlılıkları (shared library dependicies) nasıl bulunur
+1. ldd dosyaadı.so
 * Automake ve Autoconf nedir?
 * ./configure komutu ```libfoobar is missing on your system``` hatası veriyorsa, problem ne olabilir nasıl çözülür?
+1. configure dosyasının çalıştırılması için libfoobar bağımlılığında yüklenmesi gerekir onu yüklerim.
 * Script veya derlenmiş programların avantajları ve dezavantajları nelerdir?
+1. derlenmiş dosyanın boyutu daha az,daha hızlı çalışır ve bağımlılığı azdır. Script`ler kolay yazılır, kodları okuyabilirsiniz.
 * Devamlı teslim (continuous delivery) ve DevOps arasındaki bağlantı nedir?
 * Sistemin devamlı integrasyon (continous integration) ve devamlı canlıya alma (continous deployment) süreçlerinde önemli noktalar nelerdir?
 
@@ -268,6 +277,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * SSH protokolü farklı şekillerde nasıl kullanılabilir?
 1. dosya aktarımı için
 * Çalışan bir script yanlışlıkla sildin, nasıl geri getirirsin?
+1. cat /proc/script_pid/fd/255 > ~/$(cat /proc/script_pid/comm) 
 
 #### [[⬆]](#toc) <a name='demo'>Demo Zamanı:</a>
 
@@ -286,6 +296,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Son 30 gün içerisinde erişilmiş bütün dosyalar nasıl bulunur?
 * ```(date ; ps -ef | awk '{print $1}' | sort | uniq | wc -l ) >> Activity.log``` komutunun işlevi nedir?
 * İki dizin arasındaki bütün farkları listeyen scripti yaz.
+1. diff dizin1 dizin2
 * ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` formatındaki bir log dosyasındaki her saat veya belirli bir saatte oluşan belirli bir hata nasıl gösterilir?
 
 
