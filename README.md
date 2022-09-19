@@ -133,6 +133,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Zombie süreç nedir ve ne sebep olur?
   1. childprocess`in parentprocess`i ölürse childprocess zombie process olur.
 * Bir bash scripti çalışırken aynı anda hem terminale çıktı versin hem de dosyaya yazılsın istiyorsan ne yapmalıyız?
+  1. tee kullanabiliriz hem çıktı verir hemde dosyaya yazar. komut | tee dosya.txt
 * echo "1" > /proc/sys/net/ipv4/ip_forward komutu ne yapar?
 * https://foo.example.com sitesi için geçerli sertifika oluşturup yüklemenin adımlarını kısaca açıkla.
   1. certbot`un desteklediği bir sunucu yazılımı indir,certbot ile sertifika oluştur sunucu yazılımını konfügre et 443 portunu firewall`dan izin ver. sunucu yazılımını proxy olarak kullanıyosan çok birşey değişmiyor. 
@@ -147,8 +148,8 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
   1. ssh`ı kapattıktan sonrada komutun devam etmesi için kullanıyorum nohup komut &
 * Aşağıdaki iki komutun farkı nedir?
   1. 2 komutta env belirlemek için kullanılır ama   1. tanım sadece oluşturulduğu session`da geçerlidir. 2. tanım o session`ın alt session`larındada geçerlidir.
-* ```myvar=hello```
-* ```export myvar=hello```
+  * ```myvar=hello```
+  * ```export myvar=hello```
 * Yerel ntp.conf dosyasında kaç tane NTP sunucusu bulundururdun?
 * ```ntpq -p``` komutunun çıktısında 'reach' şutunu ne anlama gelir?
 * 100-1000 sunucunu arasındaki bir sayıdaki sunucunun kernel güncellemesini nasıl yapardın?
@@ -166,6 +167,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 
 * Tünel nedir, HTTP Proxy'i nasıl bypass edersin?
 * IDS ve IPS arasındaki fark nedir?
+  1. adındanda anlaşılacağı gibi IDS saldırıları tespit eden yazılımlara verilen bir ad, IPS saldırılar tespit edildikten sonra önlemeye yönelik sistemlerdir
 * Genelde ne tür kısayolları kullanılırsın?
 * Linux Standard Base nedir?
 * Atomik operasyon nedir?
@@ -183,10 +185,11 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Linux çekirdiği OOM killer sürecini başlattığında ne olur, hangi süreci ilk durduracağını nasıl seçer?
 * Linux boot sürecini makinaya enerji vermekten promptu alana kadar olabildiğince detaylı anlat.
 * Chroot jail nedir?
+  1. chroot jail(hapishane) kök dosya sistemini veya kendiniz oluşturduğunuz bir dosya sisteminde shell başlatmanızı sağlayan chroot komutu ayn zamanda büyük bir izolasyon sağlar chroot ile açılmış kök dizinin çalışan işletim sistemine erişimi hiç yoktur. yani bir chroot jail oluşturmuş olursunuz.
 * Umount komutu dizinin meşgul olduğunu söylüyorsa dizini alıkoyan sürecin PID'sini nasıl buluruz?
 * LD_PRELOAD nedir, ne zaman kullanılır?
 * Bir ikili (binary) dosya çalıştırdın ama hiç birşey olmadı, nasıl debug edilir?
-  1. strace ile çalıştırırı
+  1. strace ile çalıştırırım
 * Cgroup nedir? Ne gibi bir durumda kullanılırlar?
 
 
@@ -218,6 +221,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * SNAT nedir ne için kullanılır? 
 * SSH tünelinden gelen bütün bağlantı paketlerini DROP eden bir Linux sistemine SSH ile nasıl bağlanırsınız? 
 * DDoS'u durdurmak için en yaparsın?
+  1. Altyapının durumuna bağlı fiziksel firewall varmı yatay ölçekleyebilirmiyim, duruma ve altyapıya uygun en iyi çözümü denerdim. büyük ihtimaller yapabileceğim şey makinenin ip`sini prod`da kullanmadığımız bir server ile değiş tokuş etmek, dns üzeriden yapılıyorsa zaten muhtemelen hizmet olarak alınıyordur ve DDoS koruması vardır. Servis`e yönelik ip ile yapılıyorsa ip değiştirmeyi denerim ama dağıtık sistemlerin bir parçası olduğu için orkestrasyon yazılımlarını config etmek gerekiyor daha önceden böyle birşey yapmadıysam denemem yatay ölçeklemek firewall`da sistemi bypass etmeyi deneyebilirdim.  
 * IP paketinin içeriğini nasıl görürsün?
 * IPoAC nedir? (RFC 1149)
 
