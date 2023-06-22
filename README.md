@@ -16,6 +16,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 1. [Eğlenceli Sorular](#fun)
 1. [Demo Zamanı](#demo)
 1. [Yapılacaklar](#todo)
+1. [Çeviri İçin Katkıda Bulunanlar](#contributors)
 
 
 #### [[⬆]](#toc) <a name='general'>Genel Sorular:</a>
@@ -33,6 +34,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * RAID nedir? RAID0, RAID1, RAID5, RAID10 nedir?
 * Level 0 backup nedir? Incremental(artan) backup nedir?
 * Linux sisteminin genel dosya sistemi hiyerarşisini açıkla.
+* Public ve private SSH anahtarı arasında ne gibi farklar vardır?
 
 
 #### [[⬆]](#toc) <a name='simple'>Basit Linux Soruları:</a>
@@ -52,17 +54,23 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * ```chmod +x FILENAME``` komutu ne yapar?
 * 0750 izninin dosya üzerindeki etkisi nedir?
 * 0750 izninin dizin üzerindeki etkisi nedir?
-* Erişim (login) izni vermeden nasıl kullanıcı oluşturulur?
+* Erişim (login) izni vermeden nasıl yeni kullanıcı oluşturulur?
 * Bir kullanıcıya nasıl grup nasıl eklenir, silinir?
 * Bash alias ne demektir?
 * root veya bir kullanıcının mail adresini nasıl ayarlarsın?
 * CTRL-c ne yapar?
+* CTRL-d ne yapar?
+* CTRL-z ne yapar?
 * /etc/services dosyanın içinde ne saklanır?
 * Standart çıkış ve hatayı Bash dilinde nasıl yeniden yönlendirirsin? (> /dev/null 2>&1)
 * UNIX ile Linux arasındaki fark nedir?
 * Telnet ve SSH arasındaki fark nedir?
-* Üç yük ortalamasını (three load averages) açıkla, neyi gösterirler?
-
+* Üç yük ortalamasını (three load averages) açıkla, neyi gösterirler? Yük ortalamalarını görüntülemek için hangi komut kullanılabilir?
+* GNU ```ls``` için geçerli olmayan bir küçük harf parametresi söyleyebilir misiniz?
+* Linux kernel modülü nedir?
+* Bir hatayı gidermek için single user mode'u nasıl boot edersin adım adım gösterir misin?
+* Yönettiğiniz bir web uygulamasındaki 404 hatasını gidermek için atacağınız adımları anlatır mısın? 
+* ICMP protokolü nedir? Neden kullanırız?
 
 #### [[⬆]](#toc) <a name='medium'>Orta seviye Linux Soruları:</a>
 
@@ -77,6 +85,13 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * ```watch```
 * ```head```
 * ```tail```
+* ```less```
+* ```cat```
+* ```touch```
+* ```sar```
+* ```netstat```
+* ```tcpdump```
+* ```lsof```
 * ```&``` karakteri komuttan sonra gelirse nasıl etki gösterir?
 * ```& disown``` karakteri komuttan sonra gelirse ne etki gösterir?
 * Paket filtreleme nedir, nasıl kullanılır?
@@ -96,6 +111,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Yerel ve uzaktaki port yönlendirme arasındaki fark nedir?
 * useradd/adduser komutlarını kullanmadan sistemi kullanıcı eklemenin adımları nelerdir?
 * Özel dosyalardaki MAJOR ve MINOR numaraları ne anlama gelir?
+* mknod komutunu ve ne zaman kullanıldığını açıklayın.
 * "filesystem is full" hatası alındığında 'df' komutu kullanabilir alan gösteriyorsa sebebi ne olabilir?
 * Dosya silindikten sonra df komutunun boşalan alanı göstermemesinin sebebi ne olabilir?
 * 'ps' komutu nasıl çalışır?
@@ -116,14 +132,17 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * ```myvar=hello```
 * ```export myvar=hello```
 * Yerel ntp.conf dosyasında kaç tane NTP sunucusu bulundururdun?
-* ```ntpq -p``` komutunun çıktısında 'reach' şutunu ne anlama gelir?
+* ```ntpq -p``` komutunun çıktısında 'reach' sütunu ne anlama gelir?
 * 100-1000 sunucunu arasındaki bir sayıdaki sunucunun kernel güncellemesini nasıl yapardın?
-* SCSI dışkın, Host, Channel, ID, LUN değerlerini nasıl görürsün?
+* SCSI diskin, Host, Channel, ID, LUN değerlerini nasıl görürsün?
 * Bir sürecin bellek kullanımını nasıl kısıtlarsın?
 * Bash quick substitution/caret replace(^x^y) nedir?
 * Farklı kabuk (shell) çeşitleri biliyor musun? Evetse, kullanma imkanın oldu mu?
 * Tarpipe nedir? (ya da hard linkler ve özel dosyalar dahil olmak üzere birşeyi bir sunucudan diğerine komple olarak nasıl kopyalarsın?)
-
+* httpd paketinin kurulu olup olmadığını nasıl anlarsın?
+* Bir paketin içeriğini nasıl listeleyebilirsin?
+* Hangi paketin daha iyi olduğunu nasıl anlayabilirsin: openssh-server-5.3p1-118.1.el6_8.x86_64 veya openssh-server-6.6p1-1.el6.x86_64 ?
+* Blok tabanlı(block based) ve nesne tabanlı(object based) depolama arasındaki farkı bana açıklayabilir misin?
 
 #### [[⬆]](#toc) <a name='hard'>Zor Linux soruları:</a>
 
@@ -146,12 +165,17 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * LD_PRELOAD nedir, ne zaman kullanılır?
 * Bir ikili (binary) dosya çalıştırdın ama hiç birşey olmadı, nasıl debug edilir?
 * Cgroup nedir? Ne gibi bir durumda kullanılırlar?
+* Yalnızca yazdırılamayan/yazılamayan(non-printable/non-type-able) karakterlerden oluşan dosya adına sahip bir dosyayı nasıl kaldırabilir/silebilirsin(remove/delete)?
+* Linux'ta bir sürecin önceliğini nasıl artırabilir veya azaltabilirsin?
 
 
 #### [[⬆]](#toc) <a name='expert'>Uzman Linux Soruları:</a>
 
-* Çalışan bir süreç socketi okurken ```EAGAIN: Resource temporarily unavaılable``` hatası alıyor. Süreci durdurmadan socket veya file descriptoru nasıl kapatırsın?
-
+* Çalışan bir süreç socketi okurken ```EAGAIN: Resource temporarily unavaılable``` hatası alıyor. Süreci durdurmadan socket veya file descriptor'u nasıl kapatırsın?
+* Swappiness ile neyi kontrol edersin?
+* TCP stack buffer'ını nasıl değiştirirsin? Nasıl hesaplarsın?
+* Huge Tables nedir? Neden varsayılan olarak etkin değildir? Neden ve ne zaman kullanılır?
+* LUKS nedir? Nasıl kullanılır?
 
 #### [[⬆]](#toc) <a name='network'>Ağ Soruları:</a>
 
@@ -164,16 +188,17 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * ARP nedir ve ne için kullanılır?
 * TCP ve UDP arasındaki fark nedir?
 * Varsayılan gateway ne için kullanılır?
-* Yönlendirme tablosunu gösteren komut nedir?
+* Linux box'ta yönlendirme tablosunu gösteren komut nedir?
 * Bir TCP bağlantısı ağda 4 farklı eşsiz şey ile tanımlanır. Bunlar nedir?
 * İstemci web tarayıcısı ile web sunucusuna bağlandığında bağlantının kaynak ve hedef portu ne olur?
 * Özel bir arayüze IPv6 adres nasıl eklenir?
 * Eth0 arayüzüne IPv4 ve IPv6 adresine ekledikten sonra v4 adresine gönderilen ping çalışıyor fakat v6 adresine gönderilen pingin sonucu ```sendmsg: operation not permitted``` hatası alınıyorsa problem ne olabilir?
 * SNAT nedir ne için kullanılır? 
 * SSH tünelinden gelen bütün bağlantı paketlerini DROP eden bir Linux sistemine SSH ile nasıl bağlanırsınız? 
-* DDoS'u durdurmak için en yaparsın?
+* DDoS saldırısını durdurmak için en yaparsın?
 * IP paketinin içeriğini nasıl görürsün?
 * IPoAC nedir? (RFC 1149)
+* Port 0'ı bind ettiğinde ne olur?
 
 
 #### [[⬆]](#toc) <a name='mysql'>MySQL Soruları:</a>
@@ -185,17 +210,17 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Basit bir master/slave cluster kurmak için hangi adımlar gereklidir?
 * MySQL'i kurduktan sonra neden "mysql_secure_installation" çalıstırılmalıdır? 
 * Hangi işlerin çalıştığını nasıl görülür?
-* 19 Ocak 2038 tarihinde ne olacak?
-
+* Bir MySQL veritabanının yedeğini nasıl alırsın?
 
 #### [[⬆]](#toc) <a name='devop'>DevOps Soruları:</a>
 
 * Bir script oluştururkenki çalışma akışını (workflow) açıklar mısın?
 * GIT nedir?
 * Dinamik ya da statik olarak bağlı dosya ne anlam ifade eder?
-* "configure && make && make install" komutu ne işe yarar?
+* "./configure && make && make install" komutu ne işe yarar?
 * puppet/chef/ansible neden kullanılır?
-* nagios/zenoss/newrelic ne içindir?
+* Nagios/Zenoss/NewRelic ne içindir?
+* Jenkins/TeamCity/GoCI ne içindir?
 * Konteyner ile VM (sanal makina) arasındaki fark nedir?
 * Yeni bir postgres kullanıcısı nasıl oluşturulur?
 * Sanal IP nedir? Cluster nedir?
@@ -206,6 +231,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Script veya derlenmiş programların avantajları ve dezavantajları nelerdir?
 * Devamlı teslim (continuous delivery) ve DevOps arasındaki bağlantı nedir?
 * Sistemin devamlı integrasyon (continous integration) ve devamlı canlıya alma (continous deployment) süreçlerinde önemli noktalar nelerdir?
+* Birden çok kullanılabilirlik alanındaki EC2 bulut sunucularının verileri paylaşmasına izin verecek şekilde AWS içinde ağ dosyası paylaşımını nasıl etkinleştirirsiniz?
 
 
 #### [[⬆]](#toc) <a name='fun'>Eğlenceli Sorular:</a>
@@ -214,9 +240,14 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * root şifresini kaybettin, bu durumda ne yapılabilir?
 * Uzaktaki bir sunucuyu yeniden başlattım ama 10 dakika geçmesine rağmen hala SSH ile sisteme bağlanılmıyorsa problem ne olabilir?
 * Issız bir adaya düşsen yanına alacağın 5 Linux komutu nedir?
-* Rastgele bir makinaya denk geldin, ilk olarak çalıştıracağın komut ne olurdu?
 * SSH protokolü farklı şekillerde nasıl kullanılabilir?
 * Çalışan bir script yanlışlıkla sildin, nasıl geri getirirsin?
+* Rastgele bir bilgisayarla karşılaşıyorsun ve bu evrenin komut satırı gibi duruyor. Yazacağın ilk şey nedir?
+* Bana SSH'ı kullandığın yaratıcı bir durumdan bahseder misin?
+* Çalışan bir scripti yanlışlıkla sildin, geri yüklemek için ne yapabilirsin?
+* 19 Ocak 2038 tarihinde ne olacak?
+* Yeniden başlatma komutu yanıt vermediğinde sunucu nasıl yeniden başlatılır?
+
 
 
 #### [[⬆]](#toc) <a name='demo'>Demo Zamanı:</a>
@@ -226,7 +257,7 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * "my konfu is the best" içeriği bütün *.py dosyalarında nasıl aranır?
 * Bütün *.txt dosyalarındaki her "my konfu is the best" metinini "I'm a Linux jedi master" ile değiştir.
 * IP adresi X.X.X.X olan makinanın 443 portunun erişilir olduğu nasıl kontrol edilir?
-* Telnet ile http://myinternal.webserver.local/test.html sayfasını nasıl indirilir? 
+* Telnet ile http://myinternal.webserver.local/test.html sayfası nasıl indirilir? 
 * Bir mail istemci olmadan komut satırı ile bir mail nasıl yollanılır?
 * python/perl/bash/pseudo dillerinde ```get_prim``` methodu nasıl yazılır?
 * Son 30 gün içerisinde erişilmiş bütün dosyalar nasıl bulunur?
@@ -240,3 +271,11 @@ https://github.com/chassing/linux-sysadmin-interview-questions sayfasının tür
 * Mülakat soruları diye açıldı ama soruların cevapları da fena olmaz gibi geldi
 * Gözden kaçan yazım hatalarına da açığım tabii :)
 * Ara ara gelen güncellemeleri pek takip edemedim. Orjinal siteden çevirmek isteyen varsa hoş olur.
+
+
+#### [[⬆]](#toc) <a name='contributors'>Çeviri İçin Katkıda Bulunanlar:</a>
+
+* [Cem Celebi](https://github.com/occelebi)
+* [Batuhan Taskaya](https://github.com/isidentical)
+* [Mehmet Soylu](https://github.com/mssoylu)
+* [Muhammed Sabri Yildirim](https://github.com/mhammedyildirim)
